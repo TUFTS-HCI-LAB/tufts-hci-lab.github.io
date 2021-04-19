@@ -1,4 +1,4 @@
-# HCI Website From Ououe (Vuepress Theme)
+# TUFTS HCI LAB Website
 
 
 ## Folder structure
