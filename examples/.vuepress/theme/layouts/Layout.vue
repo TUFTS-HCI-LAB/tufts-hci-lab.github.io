@@ -17,7 +17,7 @@ export default {
   },
   mounted() {
     // console.log('Is it home? '+this.$isHome)
-    // console.log(this.$list)
+    // console.log(this.$cover)
   }
 }
 </script>
