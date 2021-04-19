@@ -1,0 +1,21 @@
+node_modules/*
+!node_modules/vuepress-plugin-blog-multidir
+CHANGELOG.md
+/.eslintrc.js
+/.prettierrc
+/.travis.yml
+temporary_files/
+
+# The ignored files from original ououe
+.DS_Store
+.npmignore
+# .gitignore
+# .editorconfig
+
+# node_modules/
+# test/
+# dist/
+# npm-debug.log
+# yarn-error.log
+# yarn.lock
+# package-lock.json
