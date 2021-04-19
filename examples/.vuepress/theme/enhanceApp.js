@@ -11,14 +11,19 @@ export default ({ Vue }) => {
       },
       $cover() {
         const item = this.$themeConfig.cover
+        // console.log(item)
+        // console.log(Array.isArray(item))
         if (this.$frontmatter.image) {
           return this.$frontmatter.image
         } else if (typeof item === 'string') {
           return item
         } else if (item[this.$route.path]) {
-          return item[this.$route.path]
+          return item[this.$route.path];
+        } else if (Array.isArray(item)) {
+          // console.log(item)
+          return item;
         } else {
-          return item.base || ''
+          return item.base || "";
         }
       },
       $isHome() {

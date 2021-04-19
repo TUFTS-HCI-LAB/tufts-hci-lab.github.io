@@ -1,6 +1,6 @@
 ---
 title: People
-layout: Page
+layout: Layout_about
 ---
 
 

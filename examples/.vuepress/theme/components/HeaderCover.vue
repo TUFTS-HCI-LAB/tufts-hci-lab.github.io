@@ -1,7 +1,7 @@
 <template>
   <section
     v-if="item"
-    :style="{ 'background-image': `url(${$withBase(item)})` }"
+    :style="{ 'backgroundImage': `url(${get_image_show})` }"
     class="flex-ycc header-cover"
   >
     <h1 class="cover-title">
@@ -22,8 +22,17 @@ export default {
   name: 'HeaderCover',
   props: {
     item: {
-      type: String,
+      // type: String,
       default: null
+    },
+  },
+  data: function () {
+    return {
+      image_show: {
+        // type: String,
+        default: null
+      },
+      image_index: 0
     }
   },
   computed: {
@@ -34,12 +43,37 @@ export default {
 
       if (this.$isHome) {
         // return this.$themeConfig.logo ? false : this.$title
-        return 'Tufts HCI Lab'
+        // return 'home title'
+        return ''
+
       } else {
         return (
           (navItem && navItem.text) || this.$frontmatter.title || this.$title
         )
       }
+    },
+    get_image_show() {
+      return this.image_show
+    }
+  },
+  mounted() {
+    console.log(this.item)
+    // console.log(Array.isArray(this.item))
+    // console.log(typeof(this.item))
+    if (typeof(this.item) == 'string') {
+      // console.log('hahah')
+      this.image_show = this.item
+    }
+    else if (Array.isArray(this.item)) {
+      // console.log('haha')
+      this.image_index = 0
+      this.image_show = this.item[this.image_index]
+      console.log(this.image_show)
+
+      this.interval = setInterval(() => {
+        this.image_index = (this.image_index + 1) % this.item.length
+        this.image_show = this.item[this.image_index]
+      }, 3 * 1000);
     }
   }
 }

@@ -58,7 +58,7 @@ export default {
   computed: {
     layout() {
       const layout = this.$frontmatter.layout     // Load from yaml in md file
-      console.log(this.$frontmatter.layout)
+      // console.log(this.$frontmatter.layout)
       if (this.$page.path) {
         if (                                      // If defined in yaml, use it
           layout &&
@@ -72,7 +72,9 @@ export default {
       return 'NotFound'
     },
     showCover() {
-      return this.layout !== 'Page' && this.layout !== 'NotFound'
+      let flag = (this.layout !== 'Page' && this.layout !== 'NotFound')
+      console.log(flag)
+      return flag
     },
     defaultTheme() {
       const _defaultTheme =
@@ -119,6 +121,8 @@ export default {
         this.colorScheme.scheme === this.defaultTheme
       }.bind(this)
     }
+
+    // console.log(this.showCover)
   },
   methods: {
     changeScheme() {

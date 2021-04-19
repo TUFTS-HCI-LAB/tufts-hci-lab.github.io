@@ -53,7 +53,7 @@ export default {
   },
   mounted() {
     // console.log('Is it home? '+this.$isHome)
-    console.log(this.$list.posts)
+    // console.log(this.$list.posts)
   }
 }
 </script>
