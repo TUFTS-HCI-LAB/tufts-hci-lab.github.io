@@ -1,5 +1,5 @@
 ---
-title: About
+title: Publications
 layout: Layout_about
 ---
 
