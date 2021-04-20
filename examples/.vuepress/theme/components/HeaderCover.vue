@@ -11,9 +11,9 @@
         :src="$themeConfig.logo"
         class="title-img"
       /> -->
-      <span v-if="coverTitle" class="title-text">{{ coverTitle }}</span>
+      <!-- <span v-if="coverTitle" class="title-text">{{ coverTitle }}</span> -->
     </h1>
-    <h2 class="cover-text">{{ $site.description }}</h2>
+    <!-- <h2 class="cover-text">{{ $site.description }}</h2> -->
   </section>
 </template>
 

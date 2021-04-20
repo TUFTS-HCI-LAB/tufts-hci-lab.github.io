@@ -17,7 +17,7 @@ module.exports = {
       "/home_page/old_lab_inx.jpg",
       "/home_page/old_lab_outx.jpg",
     ],
-    // logo: "/logo_hci.png",
+    logo: "/logo_hci.png",
     search: false,
     sidebar: 'auto',
     // backgroundImage: false,
