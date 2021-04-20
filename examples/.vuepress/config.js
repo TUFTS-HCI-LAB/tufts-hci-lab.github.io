@@ -33,21 +33,21 @@ module.exports = {
     // },
     nav: [
       { text: "Home", link: "/" },
-      { text: "Posts", link: "/posts/" },
+      // { text: "Posts", link: "/posts/" },
       // { text: 'BackupPost', link: '/backup_post/' },
       { text: "People", link: "/people/" },
       // just like Posts
       { text: "Projects", link: "/projects/" },
       // just like about
       { text: "Publications", link: "/publications/" },
-      { text: "Doc", link: "/doc/" },
+      // { text: "Doc", link: "/doc/" },
       // Just like Page About
       { text: "Admissions", link: "/admissions/" },
       { text: "HCI Resources", link: "/hci_resources/" },
 
       // { text: "Tags", link: "/tag/" },
       // { text: "Categories", link: "/category/" },
-      { text: "About", link: "/about/" },
+      // { text: "About", link: "/about/" },
     ],
     footer: [{ text: "Github", link: "https://github.com" }],
   },
