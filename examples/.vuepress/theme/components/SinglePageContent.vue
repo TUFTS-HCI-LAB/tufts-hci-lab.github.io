@@ -1,5 +1,5 @@
 <template>
-  <section class="page">
+  <section class="single_page_content">
     <info />
   </section>
 </template>
