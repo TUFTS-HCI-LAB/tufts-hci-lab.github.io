@@ -1,12 +1,12 @@
 ---
-title: Liang(Leon) Wang
+title: Zhe(J) Huang
 lang: en-US
 display: 
 description: 
-image: https://avatars.githubusercontent.com/u/21259611?v=4
-date: 2021-07-05
+image: https://media-exp1.licdn.com/dms/image/C5603AQG9Ouy7G2h4VQ/profile-displayphoto-shrink_400_400/0/1517540786613?e=1624492800&v=beta&t=cpuIzJAj8WFBZW6cwiw_NGNwuctjGpX6EVAY_yh0HcQ
+date: 2021-06-05
 tags:
-  - Ph.D. candidate
+  - Ph.D. student
 categories:
   - Lab member
 --- 

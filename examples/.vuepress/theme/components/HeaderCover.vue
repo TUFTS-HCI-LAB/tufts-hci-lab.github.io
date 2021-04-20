@@ -57,7 +57,7 @@ export default {
     }
   },
   mounted() {
-    console.log(this.item)
+    // console.log(this.item)
     // console.log(Array.isArray(this.item))
     // console.log(typeof(this.item))
     if (typeof(this.item) == 'string') {
@@ -68,7 +68,7 @@ export default {
       // console.log('haha')
       this.image_index = 0
       this.image_show = this.item[this.image_index]
-      console.log(this.image_show)
+      // console.log(this.image_show)
 
       this.interval = setInterval(() => {
         this.image_index = (this.image_index + 1) % this.item.length
