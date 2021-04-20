@@ -6,7 +6,7 @@ module.exports = {
     '@vuepress/search',
     '@vuepress/plugin-nprogress',
     ['@vuepress/last-updated', { transformer: timestamp => timestamp }],
-    ['blog-multidir', {paginationLimit: '3'}],
+    ['blog-multidir', {paginationLimit: '9'}],
     'img-lazy',
     ['reading-progress', { readingDir: /[^/]+$/ }]
   ]
