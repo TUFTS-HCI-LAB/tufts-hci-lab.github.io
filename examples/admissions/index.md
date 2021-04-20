@@ -3,8 +3,8 @@ title: Admissions
 layout: Layout_about
 ---
 
-## Admissions title 1
-content xxx
+## Undergraduate Admissions
+At Tufts, the admission to undergraduate programs is handled by the Office of Undergraduate Admissions. Please visit their website for information about applying to the undergraduate colleges at Tufts. For information about the majors and minors at Tufts, and for general information about Tufts policies and academic requirements, see the Tufts Bulletin. Course listings, by department, are available from the Tufts Course Listings website.
 
-## Admissions title 2
-content yyy
+## Graduate Admissions
+Graduate admissions is handled by the Office of Graduate Admissions. Information about the graduate programs offered by the Tufts Computer Science department is available from the Computer Science Department website. Additionally, some admissions information is also available from the Computer Science department.
