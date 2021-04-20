@@ -19,6 +19,7 @@ module.exports = {
     ],
     // logo: "/logo_hci.png",
     search: false,
+    sidebar: 'auto',
     // backgroundImage: false,
     // pageGroup: 5,
     // postTime: {
