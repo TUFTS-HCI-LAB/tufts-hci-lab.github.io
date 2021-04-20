@@ -36,6 +36,7 @@ module.exports = {
       { text: "Home", link: "/" },
       // { text: "Posts", link: "/posts/" },
       // { text: 'BackupPost', link: '/backup_post/' },
+      { text: "HCI At Tufts", link: "/hci_at_tufts/" },
       { text: "People", link: "/people/" },
       // just like Posts
       { text: "Projects", link: "/projects/" },

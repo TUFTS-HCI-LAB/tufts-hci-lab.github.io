@@ -1,7 +1,7 @@
 ---
 title: Robert Jacob
 lang: en-US
-display: 
+display: home
 description: ACM Fellow
 image: https://engineering.tufts.edu/sites/default/files/newsthumbs/news-201612-jacob_0.png
 date: 2021-10-09
