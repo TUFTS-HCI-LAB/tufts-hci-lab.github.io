@@ -1,10 +1,10 @@
 ---
-title: Admission
+title: Admissions
 layout: Layout_about
 ---
 
-## Admission title 1
+## Admissions title 1
 content xxx
 
-## Admission title 2
+## Admissions title 2
 content yyy

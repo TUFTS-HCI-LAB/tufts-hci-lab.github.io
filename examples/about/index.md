@@ -3,8 +3,6 @@ title: About
 layout: Layout_about
 ---
 
-# A blog theme for VuePress
-
 ## title 1
 xxxxx
 ## title 2
