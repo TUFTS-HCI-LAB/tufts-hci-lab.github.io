@@ -27,10 +27,15 @@ export default {
 
 <style lang="stylus" scoped>
 .footer
+  // position: absolute
   padding 1rem 0 .5rem
   background $codeBgColor
   text-align center
   transition background .5s ease-in-out
+  
+  height $footerHeight
+  // height $footerHeight
+  // width $sidebarWidth+$contentWidth
   @media (prefers-color-scheme: dark)
     background $codeBgDarkColor
   .link-list

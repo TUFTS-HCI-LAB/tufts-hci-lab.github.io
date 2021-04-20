@@ -1,10 +1,10 @@
 ---
-title: About
+title: Admissions
 layout: Layout_about
 ---
 
-# A blog theme for VuePress
+## Admissions title 1
+content xxx
 
-> This theme is for Vuepress 1.0
-
-Live Demo: [My Blog](https://ououe.com)
+## Admissions title 2
+content yyy

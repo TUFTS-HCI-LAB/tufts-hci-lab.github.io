@@ -1,10 +1,12 @@
 ---
-title: About
+title: HCI Resources
 layout: Layout_about
 ---
 
-# A blog theme for VuePress
+## Resource 1
 
-> This theme is for Vuepress 1.0
+### Content xxx
 
-Live Demo: [My Blog](https://ououe.com)
+## Resource 2
+
+### Content yyy
