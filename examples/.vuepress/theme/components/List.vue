@@ -8,11 +8,14 @@
       :class="{ 'no-image': !item.frontmatter.image }"
       class="flex-y list-item"
     >
+      <!-- Display the image  of this item -->
       <div v-if="item.frontmatter.image" class="flex-xcc item-img">
         <img-lazy :src="item.frontmatter.image" :alt="item.title" class="img" />
       </div>
+      <!-- Display the content of this item -->
       <!-- <article class="flex-yb item-content"> -->
-        <article class="flex-yb item-content">
+      <article class="flex-yb item-content">
+        <!-- List all categories for this item -->
         <div v-if="getCategories(item.frontmatter)" class="content-categories">
           <router-link
             v-for="(item, index) in getCategories(item.frontmatter)"
@@ -22,8 +25,11 @@
             >{{ item }}
           </router-link>
         </div>
+        <!-- Display the title for this item -->
         <h2 class="content-title">{{ item.title }}</h2>
+        <!-- Display the excerpt(abstract content) for this item -->
         <div v-html="item.excerpt" class="content" />
+        <!-- List all tags for this item -->
         <div v-if="getTags(item.frontmatter)" class="content-tags">
           <router-link
             v-for="(item, index) in getTags(item.frontmatter)"
