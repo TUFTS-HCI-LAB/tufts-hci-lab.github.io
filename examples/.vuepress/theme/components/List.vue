@@ -147,7 +147,7 @@ export default {
         overflow hidden
         font-size .9rem
 .cover-list
-  margin-top -2rem
+  margin-top 2rem
   min-height "calc(100vh - 2.5rem - %s)" % $coverHeight
 // @media (min-width $phoneWidth)
 //   .home-list
