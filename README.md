@@ -21,7 +21,7 @@ yarn
 
 1. Use the modified node package from this repo (Use the source code of some node packages from this git repo instead of installing from node.js)
 ```sh
-git checkout node_modules/
+git checkout node_modules/vuepress-plugin-blog-multidir
 ```
 
 1. Run the server locally
