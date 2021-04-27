@@ -55,6 +55,8 @@ export default {
     background $maskColor
     backdrop-filter blur(5px)
     transition all .5s ease-in-out
+    // height 70px
+    height $headerHeight
     @media (prefers-color-scheme: dark)
       background $maskDarkColor
     .header-nav

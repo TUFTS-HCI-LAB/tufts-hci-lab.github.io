@@ -1,8 +1,12 @@
 import themeConfig from '@theme/lib/themeConfig'
 import { objectDeepMerge } from '@theme/lib/util'
 import ImgLazy from 'vuepress-plugin-img-lazy/ImgLazy'
+import VueAwesomeSwiper from 'vue-awesome-swiper'
+import 'swiper/css/swiper.css'
+
 
 export default ({ Vue }) => {
+  Vue.use(VueAwesomeSwiper)
   Vue.component(ImgLazy.name, ImgLazy)
   Vue.mixin({
     computed: {
@@ -33,6 +37,10 @@ export default ({ Vue }) => {
             '/' + this.$pluginConfig.paginatioPath
           )
         )
+      },
+      $homeImages() {
+        // console.log(this.$themeConfig.home_images)
+        return this.$themeConfig.home_images;
       }
     }
   })

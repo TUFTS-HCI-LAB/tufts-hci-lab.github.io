@@ -71,8 +71,10 @@ export default {
       }
       return 'NotFound'
     },
+    // Only show the cover image in header if it's a index page
     showCover() {
-      let flag = (this.layout !== 'Page' && this.layout !== 'NotFound')
+      // let flag = (this.layout !== 'Page' && this.layout !== 'NotFound')
+      let flag = (this.layout == 'Layout')
       console.log(flag)
       return flag
     },

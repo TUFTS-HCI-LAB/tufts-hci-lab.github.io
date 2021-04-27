@@ -1,17 +1,21 @@
 <template>
-  <footer class="footer">
-    <nav v-if="$themeConfig.footer" class="link-list">
-      <nav-link
-        v-for="(item, index) in $themeConfig.footer"
-        :key="index"
-        :value="item"
-        class="list-item"
-      />
-    </nav>
-    <router-link :to="$localePath" class="copyright">{{
-      $site.title + ' &copy; ' + new Date().getFullYear()
-    }}</router-link>
-  </footer>
+  <div>
+    <div class='my-box'>
+    </div>
+    <footer class="footer">
+      <nav v-if="$themeConfig.footer" class="link-list">
+        <nav-link
+          v-for="(item, index) in $themeConfig.footer"
+          :key="index"
+          :value="item"
+          class="list-item"
+        />
+      </nav>
+      <router-link :to="$localePath" class="copyright">{{
+        $site.title + ' &copy; ' + new Date().getFullYear()
+      }}</router-link>
+    </footer>
+  </div>
 </template>
 
 <script>
@@ -26,9 +30,17 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
+.my-box
+  // height: 20px
+  // height $footerHeight
+  // padding 1rem 0 .5rem
 .footer
-  // position: absolute
-  padding 1rem 0 .5rem
+  position: fixed
+  right: 0px
+  left: 0px
+  bottom 0px
+  // padding 1rem 0 .5rem
+  padding-top 1rem
   background $codeBgColor
   text-align center
   transition background .5s ease-in-out
