@@ -68,7 +68,7 @@ export default {
 .list
   position relative
   margin-top ($headerHeight + 2rem)
-  min-height "calc(100vh - 6.5rem - %s)" % $headerHeight
+  // min-height "calc(100vh - 6.5rem - %s)" % $headerHeight
   .list-item
     // flex: 1 1 300px;
     width: 30%
@@ -148,7 +148,7 @@ export default {
         font-size .9rem
 .cover-list
   margin-top 2rem
-  min-height "calc(100vh - 2.5rem - %s)" % $coverHeight
+  // min-height "calc(100vh - 2.5rem - %s)" % $coverHeight
 // @media (min-width $phoneWidth)
 //   .home-list
 //     .list-item:nth-child(6n+1):not(.no-image)
