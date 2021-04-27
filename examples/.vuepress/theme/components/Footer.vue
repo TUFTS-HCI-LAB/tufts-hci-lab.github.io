@@ -32,14 +32,15 @@ export default {
 <style lang="stylus" scoped>
 .my-box
   // height: 20px
-  height $footerHeight
-  padding 1rem 0 .5rem
+  // height $footerHeight
+  // padding 1rem 0 .5rem
 .footer
   position: fixed
   right: 0px
   left: 0px
   bottom 0px
-  padding 1rem 0 .5rem
+  // padding 1rem 0 .5rem
+  padding-top 1rem
   background $codeBgColor
   text-align center
   transition background .5s ease-in-out
