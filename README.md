@@ -8,9 +8,8 @@
 |- examples         // Vuepress source code of Tufts HCI Lab  
 | |- .vuepress      // Vuepress settings
 | | |- theme        // The local theme files of Ououe
-|
-|- blog-multidir    // The source code of package, just for reference.
-                    // Not used for building anything
+| |- * (all other folders)  // All folders other than .vuepress contain the markdown files for each page.
+
 ```
 
 ## Usage (defined in package.json)
@@ -19,7 +18,8 @@
 yarn
 ```
 
-1. Use the modified node package from this repo (Use the source code of some node packages from this git repo instead of installing from node.js)
+1. Use local npm package (**Do this everytime after `yarn`**)
+Use the source code of some node packages from this git repo instead of installing from npm
 ```sh
 git checkout node_modules/vuepress-plugin-blog-multidir
 ```
