@@ -43,6 +43,7 @@
           parallax: true,
           centeredSlides: true,
           effect: 'fade',
+          loop: true,
           autoplay: {
             delay: 2500,
             disableOnInteraction: false
