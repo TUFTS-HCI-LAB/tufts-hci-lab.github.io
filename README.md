@@ -14,25 +14,25 @@
 
 ## Usage (defined in package.json)
 1. Install the node packages
-```sh
-yarn
-```
+    ```sh
+    yarn
+    ```
 
-1. Use local npm package (**Do this everytime after `yarn`**)
+2. Use local npm package (**Do this everytime after running `yarn`**)
 Use the source code of some node packages from this git repo instead of installing from npm
-```sh
-git checkout node_modules/vuepress-plugin-blog-multidir
-```
+    ```sh
+    git checkout node_modules/vuepress-plugin-blog-multidir
+    ```
 
 1. Run the server locally
-```sh
-yarn dev
-```
+    ```sh
+    yarn dev
+    ```
 
 1. Build the website to the target folder `docs`
-```sh
-yarn build
-```
+    ```sh
+    yarn build
+    ```
 
 ## License
 
