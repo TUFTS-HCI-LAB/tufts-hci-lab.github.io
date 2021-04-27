@@ -74,11 +74,12 @@
 
 <style lang="stylus" scoped>
 .swiper
-  padding-top 70px
+  // margin-top 70px
+  margin-top $headerHeight
   position relative
   // max-height 800px
   // width 100%
-  height: 50% vh
+  height: 57% vh
   // background-color black
   // height 00px
   .swiper-slide 
