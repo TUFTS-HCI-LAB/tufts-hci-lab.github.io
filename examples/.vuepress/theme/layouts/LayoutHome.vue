@@ -1,21 +1,21 @@
 <template>
   <section class="layout-home">
-    <h1>this is home</h1>
+    <!-- <h1>this is home</h1> -->
     <SwiperImage :images="$homeImages"/>
-    <list :class="{ 'cover-list': $cover, 'home-list': $isHome }"></list>
+    <ListHomePage :class="{ 'cover-list': $cover, 'home-list': $isHome }"></ListHomePage>
     <pagination />
   </section>
 </template>
 
 <script>
-import List from '@theme/components/List.vue'
+import ListHomePage from '@theme/components/ListHomePage.vue'
 import Pagination from '@theme/components/Pagination.vue'
 import SwiperImage from '@theme/components/SwiperImage.vue'
 
 export default {
   name: 'LayoutHome',
   components: {
-    List,
+    ListHomePage,
     Pagination,
     SwiperImage
   },
