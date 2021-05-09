@@ -11,9 +11,9 @@
           class="list-item"
         />
       </nav>
-      <router-link :to="$localePath" class="copyright">{{
-        $site.title + ' &copy; ' + new Date().getFullYear()
-      }}</router-link>
+      <router-link :to="$localePath" class="copyright">Copyright {{' &copy; '}} Tufts University School of Engineering. All Rights Reserved.
+        <!-- {{$site.title + ' &copy; ' + new Date().getFullYear()}} -->
+        </router-link>
     </footer>
   </div>
 </template>
