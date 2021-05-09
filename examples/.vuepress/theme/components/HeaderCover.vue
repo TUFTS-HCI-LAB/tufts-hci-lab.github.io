@@ -73,7 +73,7 @@ export default {
       this.interval = setInterval(() => {
         this.image_index = (this.image_index + 1) % this.item.length
         this.image_show = this.item[this.image_index]
-      }, 3 * 1000);
+      }, 10 * 1000);
     }
   }
 }
@@ -90,6 +90,7 @@ export default {
   height 100%
   background-size cover
   background-position center
+  transition transform .5s ease-out
   .cover-title
     width 100%
     text-align center
