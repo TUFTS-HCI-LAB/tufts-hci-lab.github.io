@@ -6,8 +6,8 @@
         <div class="my-box"></div>
         <div class="my-box-text">
           <div class="title" data-swiper-parallax="-100">{{item.title}}</div>
-          <div class="subtitle" data-swiper-parallax="-340">{{item.subtitle}}</div>
-          <!-- <div class="text" data-swiper-parallax="-360"><p>{{item.content}}</p></div> -->
+          <!-- <div class="subtitle" data-swiper-parallax="-340">{{item.subtitle}}</div> -->
+          <div class="text" data-swiper-parallax="-360"><p>{{item.content}}</p></div>
         </div>
       </swiper-slide>
     </Swiper-Slide>
@@ -43,11 +43,12 @@
           parallax: true,
           centeredSlides: true,
           effect: 'fade',
+          mousewheel: true,
           loop: true,
-          autoplay: {
-            delay: 2500,
-            disableOnInteraction: false
-          },
+          // autoplay: {
+          //   delay: 2500,
+          //   disableOnInteraction: false
+          // },
           pagination: {
             el: '.swiper-pagination',
             clickable: true
@@ -79,7 +80,7 @@
   position relative
   // max-height 800px
   // width 100%
-  height: 57% vh
+  height: calc(55vh);
   // background-color black
   // height 00px
   .swiper-slide 
@@ -97,10 +98,10 @@
     // font-size: $font-size-huge * 2
     // background-color: ffffff
     .my-box
-      height 90%
+      height 80%
       // background-color: black;
     .my-box-text
-      height 10%
+      height 20%
       top: 0px
       bottom: 0px
       // bottom: 0px
@@ -109,7 +110,7 @@
       .title
         display block
         // margin-top: 10px
-        padding-top: 10px
+        padding-top: 5px
         // padding-left: 10%
         // height: 1em
         // text-align center
@@ -133,10 +134,16 @@
         font-size 150%;
         color: #464646
 
-      .text 
-        // max-width: 430px;
-        // line-height: 1.32;
-        // font-size: 100%
+      .text
+        display block
+        margin-left 30%
+        margin-top: -2em;
+        max-width: 500px;
+        line-height: 1.32;
+        font-size: 100%
+        color: #464646
+        // font-family: 'Source Sans Pro', sans-serif;
+        color: #666;
         // color: white
     
 
