@@ -67,13 +67,13 @@ export default {
 <style lang="stylus" scoped>
 .list
   position relative
-  margin-top ($headerHeight + 2rem)
+  // margin-top ($headerHeight + 10rem)
   // min-height "calc(100vh - 6.5rem - %s)" % $headerHeight
   .list-item
     // flex: 1 1 300px;
     width: 30%
     margin 0 .8rem 2rem
-    min-height $listCardHeight
+    max-height $listCardHeight
     border-radius .5rem
     box-shadow 0 1px 8px $shadowColor
     background $whiteColor
@@ -147,7 +147,8 @@ export default {
         overflow hidden
         font-size .9rem
 .cover-list
-  margin-top 2rem
+  margin-top 0.5rem
+  max-height "calc(50vh - %s - 7rem)" % $headerHeight
   // min-height "calc(100vh - 2.5rem - %s)" % $coverHeight
 // @media (min-width $phoneWidth)
 //   .home-list

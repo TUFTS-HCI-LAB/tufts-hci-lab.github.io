@@ -18,12 +18,12 @@ module.exports = {
       "/home_page/old_lab_outx.jpg",
     ],
     home_images: [
-      {img_url:"/home_page/196.jpg", title: 'Title 1 ', subtitle: 'Subtitle 1', content: 'Content 1'},
-      {img_url:"/home_page/ballou.jpg", title: 'Title 2 ', subtitle: 'Subtitle 2', content: 'Content 2'},
-      {img_url:"/home_page/boston.jpg", title: 'Title 3 ', subtitle: 'Subtitle 3', content: 'Content 3'},
-      {img_url:"/home_page/halligan2.jpg",title: 'Title 4 ', subtitle: 'Subtitle 4', content: 'Content 4'},
-      {img_url:"/home_page/old_lab_inx.jpg", title: 'Title 5', subtitle: 'Subtitle 5', content: 'Content 5'},
-      {img_url:"/home_page/old_lab_outx.jpg", title: 'Title 6', subtitle: 'Subtitle 6', content: 'Content 6'},
+      {img_url:"/home_page/196.jpg", title: 'Welcome', subtitle: 'Subtitle 1', content: 'The Tufts Human-Computer Interaction Lab is based at the Medford campus of Tufts University, which is located approximately 5 miles from downtown Boston and is accessible via both the subway and bus system.'},
+      {img_url:"/home_page/ballou.jpg", title: 'Welcome', subtitle: 'Subtitle 2', content: 'Please feel free to contact us if you have any questions or would like to arrange a visit.'},
+      {img_url:"/home_page/boston.jpg", title: 'Welcome', subtitle: 'Subtitle 3', content: 'The Tufts Human-Computer Interaction Lab is based at the Medford campus of Tufts University, which is located approximately 5 miles from downtown Boston and is accessible via both the subway and bus system.'},
+      {img_url:"/home_page/halligan2.jpg",title: 'Welcome', subtitle: 'Subtitle 4', content: 'Please feel free to contact us if you have any questions or would like to arrange a visit.'},
+      {img_url:"/home_page/old_lab_inx.jpg", title: 'Welcome', subtitle: 'Subtitle 5', content: 'The Tufts Human-Computer Interaction Lab is based at the Medford campus of Tufts University, which is located approximately 5 miles from downtown Boston and is accessible via both the subway and bus system.'},
+      {img_url:"/home_page/old_lab_outx.jpg", title: 'Welcome', subtitle: 'Subtitle 6', content: 'Please feel free to contact us if you have any questions or would like to arrange a visit.'},
     ],
     logo: "/logo_hci.png",
     search: false,
@@ -59,7 +59,8 @@ module.exports = {
       // { text: "Categories", link: "/category/" },
       // { text: "About", link: "/about/" },
     ],
-    footer: [{ text: "Github", link: "https://github.com" }],
+    // footer: [{ text: "Github", link: "https://github.com" }],
+    footer: [{ text: "HCI Lab, Department of Computer Science 196 Boston Ave., Tufts University, Medford, MA, 02155", link: false}],
   },
   // postcss: {
   //   plugins: [
