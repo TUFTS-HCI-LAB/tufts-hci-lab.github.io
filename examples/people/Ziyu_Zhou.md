@@ -3,7 +3,7 @@ title: Ziyu(Ben) Zhou
 lang: en-US
 display: 
 description: 
-image: https://images.squarespace-cdn.com/content/v1/577a318e29687f64367705bd/1536313947959-EV1GGKOZTGJ9QOAU3ZNQ/ke17ZwdGBToddI8pDm48kFQQgP34qnCpeHaeAOzTt7pZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PICHnXC1b9smDvYLPdL-DS7U1pkhCtl83kemXd5r3C5ngKMshLAGzx4R3EDFOm1kBS/ziyu+2.jpg?format=750w
+image: /people/ziyu_zhou.jpeg
 date: 2021-06-04
 tags:
   - M.S. 
