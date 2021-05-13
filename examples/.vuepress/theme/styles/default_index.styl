@@ -14,19 +14,98 @@
 .single_page_content
   padding-left $sidebarWidth
 
+.swiper
+  // margin-top 70px
+  margin-top $headerHeight
+  position relative
+  // max-height 800px
+  // width 100%
+  height: calc(55vh);
+  // background-color black
+  // height 00px
+  .swiper-slide 
+    // height: 550px;
+    // height: 98%
+    // width: 80%;
+    // display flex
+    // justify-content: center
+    // align-items: center
+    // text-align center
+    font-weight bold
+    background-size cover
+    background-position center
+    // padding-top 0px
+    // font-size: $font-size-huge * 2
+    // background-color: ffffff
+    .my-box
+      height 80%
+      // background-color: black;
+    .my-box-text
+      height 20%
+      top: 0px
+      bottom: 0px
+      // bottom: 0px
+      // background-color: black;
+      background: hsla(0,0%,100%,.8)
+      .title
+        display block
+        // margin-top: 10px
+        padding-top: 5px
+        // padding-left: 10%
+        // height: 1em
+        // text-align center
+        // padding-left: 10%
+        // margin-bottom: 100px;
+        margin-left 10%
+        // margin-top 10%
+        font-size 200%;
+        // font-weight: bold;
+        // color: #750c0d
+        color: #3eaf7c
+        width: 15%
+
+      .subtitle 
+        // margin-bottom: px;
+        margin-top: -1.2em;
+        // margin-left: -10em;
+        // margin-top 10px
+        margin-left 30%
+        text-align left
+        font-size 150%;
+        color: #464646
+
+      .text
+        display block
+        margin-left 30%
+        margin-top: -2em;
+        max-width: 500px;
+        line-height: 1.32;
+        font-size: 100%
+        color: #464646
+        // font-family: 'Source Sans Pro', sans-serif;
+        color: #666;
+        // color: white
+@media (min-width: ($MQMobile + 1px))
+  .theme-container.no-sidebar
+    .sidebar
+      display none
+
+    .single_page_content
+      padding-left 0
+
+
+@require './default_mobile'
+
+
 .sidebar
   font-size 16px
   background-color #fff
-  // background-color black
-  // background-color: hsla(0,0%,100%,.8)
   width $sidebarWidth
   position fixed
   z-index 10
   margin 0
-  // top $coverHeight
   top $headerHeight
   left 0
-  // padding-top $headerHeight
   bottom $footerHeight*1.5
   box-sizing border-box
   border-right 1px solid $borderColor

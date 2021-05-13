@@ -1,5 +1,5 @@
 <template>
-  <section class="flex-w main list">
+  <section class="homepage flex-w main list">
   <!-- <section class="flex-zzy-1 main list"> -->
     <router-link
       v-for="(item, index) in $list.posts"
@@ -147,8 +147,9 @@ export default {
         overflow hidden
         font-size .9rem
 .cover-list
-  margin-top 0.5rem
-  max-height "calc(50vh - %s - 7rem)" % $headerHeight
+  margin-top 1rem
+  margin-bottom 5rem
+  // max-height "calc(50vh - %s - 7rem)" % $headerHeight
   // min-height "calc(100vh - 2.5rem - %s)" % $coverHeight
 // @media (min-width $phoneWidth)
 //   .home-list
