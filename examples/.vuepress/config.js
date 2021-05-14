@@ -15,7 +15,11 @@ module.exports = {
       "/home_page/boston.jpg",
       "/home_page/halligan2.jpg",
       "/home_page/old_lab_inx.jpg",
-      "/home_page/old_lab_outx.jpg",
+      "/home_page/fNIRS.jpg",
+      "/home_page/fantini.jpg",
+      "/home_page/TuftsSign.jpg",
+      "/home_page/headset.jpg",
+      "/home_page/probe.jpg",
     ],
     home_images: [
       {img_url:"/home_page/196.jpg", title: 'Welcome', subtitle: 'Subtitle 1', content: 'The Tufts Human-Computer Interaction Lab is based at the Medford campus of Tufts University, which is located approximately 5 miles from downtown Boston and is accessible via both the subway and bus system.'},
