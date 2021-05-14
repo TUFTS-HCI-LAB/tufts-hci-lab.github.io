@@ -19,6 +19,10 @@ categories:
 <br/>Halligan Hall
 <br/>161 College Avenue
 <br/>Medford, MA 02155 U.S.A.
+<br/>
+<br/>Email: jacob@cs.tufts.edu
+<br/>Phone: 617-627-2225
+<br/>Fax: 617-627-2227
 
 
 ## Background
@@ -33,6 +37,18 @@ We are using brain input as a way to obtain more information about the user and 
 
 We are now also broadening this work to include other forms of lightweight, passive, real-time adaptive implicit interaction, based on physiological or other measurements. Our focus continues to be on the design of subtle and effective implicit interfaces that make judicious use of the measurements we can obtain.
 
+[[General article]](http://www.cs.tufts.edu/~jacob/papers/crossroads.pdf)
+
+[[Overview chapter]](http://www.cs.tufts.edu/~jacob/papers/bcibook.pdf)
+
+[[More papers]](http://www.cs.tufts.edu/~jacob/papers/)
+
+<p style='text-align:center;'>
+<img src="/rob_homepage_images/brain_detector.png" alt="Brain project image">
+<img src="/rob_homepage_images/brain_blockdiagram.png" alt="Brain project image">
+<img src="/rob_homepage_images/brain_kelly_cropped.jpg" alt="Brain project image">
+</p>
+
 ## Papers, Talks, News
 ---
 - [Papers](http://www.cs.tufts.edu/~jacob/papers/) with links to electronic versions of recent ones
@@ -40,25 +56,26 @@ We are now also broadening this work to include other forms of lightweight, pass
 - [Professional activities](http://www.cs.tufts.edu/~jacob/professional.html)
 
 <!-- new line -->
+<img src="/rob_homepage_images/acmfellow.jpg" style='float:right;' alt="ACM award dinner">
 
-- Inducted as ACM Fellow 2016
-- Gave opening keynote at First Neuroadaptive Technology Conference NAT'17, Berlin, 2017
-- CHI 2016 paper on brain-computer interaction for music learning by Beste Yuksel et al. received Best Paper Award.
-- Beste Yuksel's research on music learning reported in New Scientist
-- IEEE Computer Special Issue on Physiological Computing, with Erin Solovey as guest co-editor, published October 2015 [Editors' introducton] [Contents] [Audio interview]
-- Research featured in the Boston Globe (March 3, 2014), The Times (London), New York Post, and elsewhere.
-- Video and article about our research featured in Tufts Now, also on WBUR's Radio Boston and CCTV America
-- CHI 2014 paper on brain-computer interaction by Dan Afergan et al. received Best Paper Honorable Mention Award.
-- Dan Afergan's research on brain-computer interfaces reported in New Scientist
-- Evan Peck's research on brain-computer interfaces reported in New Scientist, ACM Tech News, and Discovery News.
--- CHI 2012 paper on brain-computer interaction by Erin Solovey et al. received Best Paper Honorable Mention Award. This work was also covered by MIT Technology Review, extremetech.com, and many other places.SIGCHI Award dinner
-- Comment on future iPads in Huffington Post
-- Comment on TV remote controls
-- Still more comments, on the Spark radio show on CBC [podcast; segment starts around 0:06] [MP3, 53MB]
-- Some comments on the legacy of Steve Jobs
+- Inducted as [ACM Fellow](http://awards.acm.org/award_winners/jacob_1771807.cfm) 2016
+- Gave opening keynote at [First Neuroadaptive Technology Conference NAT'17](https://neuroadaptive.org/conference), Berlin, 2017
+- [CHI 2016 paper](http://www.cs.tufts.edu/~jacob/papers/yuksel.chi16.pdf) on brain-computer interaction for music learning by Beste Yuksel et al. received Best Paper Award.
+- Beste Yuksel's research on music learning reported in [New Scientist](https://www.newscientist.com/article/2076899-mind-reading-tech-helps-beginners-quickly-learn-to-play-bach/)
+- IEEE Computer Special Issue on Physiological Computing, with Erin Solovey as guest co-editor, published October 2015 [[Editors' introducton]](http://www.computer.org/csdl/mags/co/2015/10/mco2015100012.pdf) [[Contents]](http://www.computer.org/csdl/mags/co/2015/10/index.html) [[Audio interview]](https://youtu.be/_nLqjHTTVPg)
+- Research featured in the [Boston Globe](https://www.bostonglobe.com/business/2014/03/03/headband-could-help-brain-comunicate-with-computers/90HC7YkJtl2iRNoKw0fnEJ/story.html) (March 3, 2014), [The Times](https://www.thetimes.co.uk/article/warning-your-brain-is-overheating-t50pllsgfgr) (London), [New York Post](https://nypost.com/2014/03/04/new-headband-can-detect-when-your-brain-is-in-overload/), and elsewhere.
+- Video and article about our research featured in [Tufts Now](https://now.tufts.edu/articles/load-your-mind), also on [WBUR's Radio Boston](http://radioboston.wbur.org/2014/05/16/tufts-headband-mind) and [CCTV America](http://www.cctv-america.com/full-frame-essay-brain-power)
+- [CHI 2014 paper](http://www.cs.tufts.edu/~jacob/papers/chi14.pdf) on brain-computer interaction by Dan Afergan et al. received Best Paper Honorable Mention Award.
+- Dan Afergan's research on brain-computer interfaces reported in [New Scientist](https://www.newscientist.com/article/mg22029484.500-mindreading-light-helps-you-stay-in-the-zone/)
+- Evan Peck's research on brain-computer interfaces reported in [New Scientist](https://www.newscientist.com/article/mg21729056.500-brainscanning-headset-monitors-your-mental-workload/), [ACM Tech News](http://www.cs.tufts.edu/~jacob/papers/acmtechnews.peck.pdf), and [Discovery News](http://www.cs.tufts.edu/~jacob/papers/discoverynews.peck.pdf).
+- [CHI 2012 paper](http://www.cs.tufts.edu/~jacob/papers/chi12.solovey.pdf) on brain-computer interaction by Erin Solovey et al. received Best Paper Honorable Mention Award. This work was also covered by [MIT Technology Review](https://www.technologyreview.com/2012/05/14/19653/a-computer-interface-that-takes-a-load-off-your-mind/), [extremetech.com](https://www.extremetech.com/extreme/129279-mits-brainput-boosts-your-brain-power-by-offloading-multitasking-to-a-computer), and [many other places](http://www.google.com/search?q=solovey+brainput+2012).<img src="/rob_homepage_images/chiacademy.jpg" style='float:right;' alt="SIGCHI Award dinner">
+- [Comment](https://www.huffpost.com/entry/future-ipad_n_1330774) on future iPads in Huffington Post
+- [Comment](https://www.cs.tufts.edu/~jacob/papers/newscientist.pdf) on TV remote controls
+- Still more comments, on the Spark radio show on CBC [[podcast; segment starts around 0:06]](https://www.cbc.ca/radio/spark/spark-168-january-15-18-2012-1.2847581) [[MP3, 53MB]](http://www.cs.tufts.edu/~jacob/spark.mp3)
+- [Some comments](https://now.tufts.edu/articles/legacy-steve-jobs) on the legacy of Steve Jobs
 - Mike Horn's work on tangible programming languages for children, at the Boston Museum of Science, reported on NECN TV
-- Computerworld article [link] discusses Reality-Based Interaction
-- Elected to ACM CHI Academy 2007 (Photo courtesy of Ben Shneiderman)
+- Computerworld article [[link]](https://www.computerworld.com/article/2538876/give-your-computer-the-finger--touch-screen-tech-is-coming-of-age.html) discusses [Reality-Based Interaction](http://hci.cs.tufts.edu/rbi/)
+- Elected to ACM [CHI Academy](https://sigchi.org/awards/sigchi-award-recipients/2007-sigchi-awards/) 2007 *(Photo courtesy of Ben Shneiderman)*
 
 
 ## Some Previous Research Projects
@@ -94,7 +111,7 @@ We are now also broadening this work to include other forms of lightweight, pass
 - [Leon Deligiannidis](https://wit.edu/directory/leonidas-deligiannidis), Wentworth Institute of Technology
 - Stephen Morrison, Intersystems
 
-Some Links
+## Some Links
 ---
 - [Dept. of Computer Science](https://www.cs.tufts.edu/)
 - [HCI at Tufts](http://www.cs.tufts.edu/~jacob/hci/)
@@ -104,3 +121,10 @@ Some Links
 - [Pictures of my family](http://www.cs.tufts.edu/~jacob/family.html)
 - [Miscellaneous photography and computer art](http://www.cs.tufts.edu/~jacob/photography/)
 - [Kathy's latest book](http://www.kingofthelobby.com/)
+
+![HCI group](/rob_homepage_images/hcigroup.jpg)
+![Sam Hincks thesis defense](/rob_homepage_images/samdefense.jpg)
+![HCI group (older)](/rob_homepage_images/hcigroupold.jpg)
+![HCI group at CHI 2016](/rob_homepage_images/tuftsdinner16.jpg)
+![HCI group at CHI 2015](/rob_homepage_images/tuftsdinner15.jpg)
+![Using head-mounted display and eye tracker](/rob_homepage_images/hmd.jpg)
