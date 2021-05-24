@@ -17,8 +17,6 @@ Her research is in human-computer interaction. One focus of her research is on n
 ## Research interests
 Human-Computer Interaction
 
-## Home Page
-https://www.wpi.edu/people/faculty/esolovey
+## [Home Page](https://www.wpi.edu/people/faculty/esolovey)
 
-## Google Scholar
-https://scholar.google.com/citations?user=d3Xr2dcAAAAJ&hl=en&oi=ao
+## [Google Scholar](https://scholar.google.com/citations?user=d3Xr2dcAAAAJ&hl=en&oi=ao)

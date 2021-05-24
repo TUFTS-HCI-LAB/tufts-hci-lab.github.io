@@ -18,8 +18,6 @@ She is a fifth year tenure track Assistant Professor in the Computer Science dep
 ## Research interests
 Her Human-Computer Interaction research lab focuses on two branches of research: 1) full body visuomotor synchrony in virtual reality and investigating the effects of this on implicit biases, and 2) using brain-computer interfaces, specifically using functional near infrared spectroscopy (fNIRS) to detect, analyze, and respond to brain signals in real time using machine learning and deep learning techniques. In addition, we use physiological and affective computing as well as paradigms based in cognitive psychology to build models of user state. These user models provide the computer with an increased knowledge of the user, thus allowing for a more intelligent, personalized and adaptive response from the computer to the human.
 
-## Home Page
-https://www.cs.usfca.edu/~byuksel/
+## [Home Page](https://www.cs.usfca.edu/~byuksel/)
 
-## Google Scholar
-https://scholar.google.com/citations?user=MjoZWO8AAAAJ&hl=en
+## [Google Scholar](https://scholar.google.com/citations?user=MjoZWO8AAAAJ&hl=en)

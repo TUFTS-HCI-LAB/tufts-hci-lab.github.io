@@ -24,6 +24,7 @@ Designing a touch-based text entry mechanism for wearables to address the fat-fi
 Leveraging brain measurements to modulate notification deliveries for a head mounted, auxiliary display (2015).
 
 Leveraging brain measurements to improve target acquisitions (2014).
-## Home Page
-https://www.eecs.tufts.edu/~tshibata/
+
+## [Home Page](https://www.eecs.tufts.edu/~tshibata/)
+
 ## Google Scholar

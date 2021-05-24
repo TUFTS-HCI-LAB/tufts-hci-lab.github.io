@@ -18,7 +18,6 @@ Leonidas Deligiannidis is a Professor of Computer Science and Networking at Went
 ## Research interests
 human-computer interaction
 
-## Home Page
-https://wit.edu/leonidas-deligiannidis
+## [Home Page](https://wit.edu/leonidas-deligiannidis)
 
 ## Google Scholar

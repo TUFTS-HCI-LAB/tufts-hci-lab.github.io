@@ -19,6 +19,4 @@ He received my PhD in Computer Science from Tufts University in 2019, studying B
 ## Research interests
 BCI, HCI, fNIRS
 
-## Home Page
-http://www.samhincks.com/
-
+## [Home Page](http://www.samhincks.com/)

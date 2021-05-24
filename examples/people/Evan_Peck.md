@@ -18,8 +18,6 @@ He is an Associate Professor of Computer Science at Bucknell University. His res
 ## Research interests
 Human-Computer Interaction, Visualization
 
-## Home Page
-https://www.eg.bucknell.edu/~emp017/
+## [Home Page](https://www.eg.bucknell.edu/~emp017/)
 
-## Google Scholar
-https://scholar.google.com/citations?user=H4TdGyYAAAAJ&hl=en&oi=ao
+## [Google Scholar](https://scholar.google.com/citations?user=H4TdGyYAAAAJ&hl=en&oi=ao)

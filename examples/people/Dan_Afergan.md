@@ -21,8 +21,6 @@ From 2005 to 2010 I worked at the U.S. Naval Research Laboratory in the Warfight
 ## Research interests
 HCI, brain-computer interfaces, adaptive interfaces, fNIRS, virtual environments
 
-## Home Page
-https://www.danafergan.com/
+## [Home Page](https://www.danafergan.com/)
 
-## Google Scholar
-https://scholar.google.com/citations?user=C2lVQO8AAAAJ&hl=en&oi=ao
+## [Google Scholar](https://scholar.google.com/citations?user=C2lVQO8AAAAJ&hl=en&oi=ao)
