@@ -15,7 +15,15 @@ categories:
 
 
 ## Research interests
+Designing a programming language for Implicit Human-Computer Interaction (2018-2019).
 
+Designing an implicit interaction for interruption management by leveraging brain mesurements (2016-2017).
+
+Designing a touch-based text entry mechanism for wearables to address the fat-finger problem (2015).
+
+Leveraging brain measurements to modulate notification deliveries for a head mounted, auxiliary display (2015).
+
+Leveraging brain measurements to improve target acquisitions (2014).
 ## Home Page
-
+https://www.eecs.tufts.edu/~tshibata/
 ## Google Scholar

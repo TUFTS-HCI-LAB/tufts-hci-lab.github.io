@@ -13,10 +13,11 @@ categories:
 
 ## BIO
 Liang (Leon) Wang is a Ph.D. student at Tufts University, where he studies human-computer interaction (HCI) in Robert Jacob's lab. His work applies state-of-the-art machine learning solutions to HCI problems, especially in fNIRS-based implicit Brain-Computer Interfaces (BCI) and emotion recognition.
+
 ## Home Page
 
 
 ## Research interests
-
+HCI, BCI, fNIRS, Machine Learning
 
 ## Google Scholar

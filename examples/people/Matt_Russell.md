@@ -12,10 +12,10 @@ categories:
 --- 
 
 ## BIO
-
+PhD candidate in Computer Science with a passion for teaching. He works in the HCI Lab at Tufts University with Professor Robert Jacob; he studies implicit Brain-Computer Interfaces, specifically using fNIRS.
 
 ## Research interests
-
+HCI, BCI, fNIRS
 ## Home Page
 
 ## Google Scholar
