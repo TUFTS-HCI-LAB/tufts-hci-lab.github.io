@@ -20,8 +20,6 @@ His research interests focus on human-computer interaction, and the discipline c
 ## Research interests
 HCI, Accessibility, Gesture, Next-Generation Interaction
 
-## Home Page
-https://onlinecs.baylor.edu/faculty/dr-g-michael-poor
+## [Home Page](https://onlinecs.baylor.edu/faculty/dr-g-michael-poor)
 
-## Google Scholar
-https://scholar.google.com/citations?user=udCWkPoAAAAJ&hl=en&oi=ao
+## [Google Scholar](https://scholar.google.com/citations?user=udCWkPoAAAAJ&hl=en&oi=ao)

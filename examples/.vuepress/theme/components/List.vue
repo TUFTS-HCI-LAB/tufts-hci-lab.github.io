@@ -66,16 +66,17 @@ export default {
 
 <style lang="stylus" scoped>
 .list
-  // position relative
+  position relative
   // margin-top (-20rem)
-  max-width 90%
-  padding-top -10rem
+  // max-width 90%
+  // padding-top -10rem
   margin-bottom 4rem
   // min-height "calc(100vh - 6.5rem - %s)" % $headerHeight
   .list-item
     // flex: 1 1 300px;
-    width: 30%
-    margin 0 .8rem 2rem
+    width: 21%
+    // width 30%
+    margin 0 1rem 2rem
     min-height $listCardHeight
     border-radius .5rem
     box-shadow 0 1px 8px $shadowColor
@@ -146,7 +147,7 @@ export default {
         flex 1
         margin-top .5rem
         padding 0
-        max-height $listCardHeight
+        // max-height $listCardHeight
         overflow hidden
         font-size .9rem
 .cover-list

@@ -18,8 +18,6 @@ Dr. Hirshfield’s research explores the use of non-invasive brain measurement t
 ## Research interests
 human-computer interaction
 
-## Home Page
-https://www.colorado.edu/ics/leanne-hirshfield
+## [Home Page](https://www.colorado.edu/ics/leanne-hirshfield)
 
-## Google Scholar
-https://scholar.google.com/citations?hl=en&user=5H_nV8cAAAAJ
+## [Google Scholar](https://scholar.google.com/citations?hl=en&user=5H_nV8cAAAAJ)

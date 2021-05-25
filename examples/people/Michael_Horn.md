@@ -18,8 +18,6 @@ categories:
 Human-Computer Interaction, Tangible Computing, Learning Sciences
 
 
-## Home Page
-https://tidal.northwestern.edu/people/mikehorn/
+## [Home Page](https://tidal.northwestern.edu/people/mikehorn/)
 
-## Google Scholar
-https://scholar.google.com/citations?user=_yO5SYkAAAAJ&hl=en
+## [Google Scholar](https://scholar.google.com/citations?user=_yO5SYkAAAAJ&hl=en)

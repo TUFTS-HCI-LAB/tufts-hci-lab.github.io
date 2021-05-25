@@ -16,6 +16,7 @@ PhD candidate in Computer Science with a passion for teaching. He works in the H
 
 ## Research interests
 HCI, BCI, fNIRS
+
 ## Home Page
 
 ## Google Scholar

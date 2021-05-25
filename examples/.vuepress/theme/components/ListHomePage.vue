@@ -71,8 +71,9 @@ export default {
   // min-height "calc(100vh - 6.5rem - %s)" % $headerHeight
   .list-item
     // flex: 1 1 300px;
-    width: 30%
-    margin 0 .8rem 2rem
+    // width: 30%
+    width: 21%
+    margin 0 1rem 2rem
     max-height $listCardHeight
     border-radius .5rem
     box-shadow 0 1px 8px $shadowColor

@@ -21,8 +21,6 @@ His research revolves around business process improvement, digital branding and 
 ## Research interests
 Computer Games, Video Games, Game Design, Player Experience, Entertainment Computing
 
-## Google Scholar
-https://scholar.google.com/citations?user=Zs9zkWIAAAAJ&hl=en
+## [Google Scholar](https://scholar.google.com/citations?user=Zs9zkWIAAAAJ&hl=en)
 
-## LinkedIn
-https://www.linkedin.com/in/georgioschristou/?originalSubdomain=cy
+## [LinkedIn](https://www.linkedin.com/in/georgioschristou/?originalSubdomain=cy)

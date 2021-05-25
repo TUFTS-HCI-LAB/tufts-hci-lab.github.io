@@ -18,10 +18,8 @@ Audrey Girouard is an Associate Professor in the School of Information Technolog
 ## Research interests
 Human Computer Interaction, Wearables, Tangible User Interactions, Accessibility
 
-## Home Page
-https://carleton.ca/scs/people/audrey-girouard/
+## [Home Page](https://carleton.ca/scs/people/audrey-girouard/)
 
-## Google Scholar
-https://scholar.google.com/citations?user=wP7xkUEAAAAJ&hl=en
+## [Google Scholar](https://scholar.google.com/citations?user=wP7xkUEAAAAJ&hl=en)
 
 

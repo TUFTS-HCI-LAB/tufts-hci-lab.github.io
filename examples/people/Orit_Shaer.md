@@ -18,8 +18,6 @@ Orit Shaer is the Class of 1966 Associate Professor of Computer Science and co-d
 ## Research interests
 Human Computer Interaction
 
-## Home Page
-http://cs.wellesley.edu/~oshaer/
+## [Home Page](http://cs.wellesley.edu/~oshaer/)
 
-## Google Scholar
-https://scholar.google.com/citations?user=T6Qvl9oAAAAJ&hl=en&oi=ao
+## [Google Scholar](https://scholar.google.com/citations?user=T6Qvl9oAAAAJ&hl=en&oi=ao)
