@@ -3,12 +3,9 @@ module.exports = {
   description: "Tufts Human-Computer Interaction Laboratory",
   base: "/",
   dest: "./docs/",
-  // theme: require.resolve('../../theme_ououe/'),
-  // theme: path.resolve(__dirname, './theme'),
   themeConfig: {
     defaultTheme: "dark",
     showThemeButton: false,
-    // cover: "/cover.jpg",
     cover: [
       "/home_page/196.jpg",
       "/home_page/ballou.jpg",
@@ -37,44 +34,18 @@ module.exports = {
     logo: "/logo_hci.png",
     search: false,
     sidebar: 'auto',
-    // backgroundImage: false,
-    // pageGroup: 5,
-    // postTime: {
-    //   createTime: 'Create Time',
-    //   lastUpdated: 'Last Updated',
-    //   options: {
-    //     dateStyle: 'full',
-    //     timeStyle: 'short',
-    //     hour12: false,
-    //     weekday: 'long'
-    //   }
-    // },
     nav: [
       { text: "Home", link: "/" },
-      // { text: "Posts", link: "/posts/" },
-      // { text: 'BackupPost', link: '/backup_post/' },
       { text: "HCI At Tufts", link: "/hci_at_tufts/" },
       { text: "People", link: "/people/" },
       // just like Posts
       { text: "Projects", link: "/projects/" },
       // just like about
       { text: "Publications", link: "/publications/" },
-      // { text: "Doc", link: "/doc/" },
       // Just like Page About
       { text: "Admissions", link: "/admissions/" },
       { text: "HCI Resources", link: "/hci_resources/" },
-
-      // { text: "Tags", link: "/tag/" },
-      // { text: "Categories", link: "/category/" },
-      // { text: "About", link: "/about/" },
     ],
-    // footer: [{ text: "Github", link: "https://github.com" }],
     footer: [{ text: "HCI Lab, Department of Computer Science 196 Boston Ave., Tufts University, Medford, MA, 02155", link: false}],
   },
-  // postcss: {
-  //   plugins: [
-  //     require('css-prefers-color-scheme/postcss'),
-  //     require('autoprefixer')
-  //   ]
-  // }
 };
