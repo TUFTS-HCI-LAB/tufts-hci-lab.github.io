@@ -46,6 +46,6 @@ module.exports = {
       { text: "Admissions", link: "/admissions/" },
       { text: "HCI Resources", link: "/hci_resources/" },
     ],
-    footer: [{ text: "HCI Lab, Department of Computer Science 196 Boston Ave., Tufts University, Medford, MA, 02155", link: false}],
+    footer: [{ text: "HCI Lab, Department of Computer Science 196 Boston Ave, Tufts University, Medford, MA, 02155", link: false}],
   },
 };
