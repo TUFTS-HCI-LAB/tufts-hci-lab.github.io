@@ -10,6 +10,7 @@ There are a large numbers of professors, research groups, and other organization
 - [Image and Video Computing Group - Boston University](http://www.bu.edu/cs/ivc/)
 - [MIT Media Lab](https://www.media.mit.edu/)
 - [Human Computer Interaction - Wellesley College](https://cs.wellesley.edu/~hcilab/)
+- [Human-Computer Interaction Research Group, Worcester Polytechnic Institute](https://interaction.mystrikingly.com)
 
 
 ## Other Information

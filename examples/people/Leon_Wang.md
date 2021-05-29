@@ -16,7 +16,8 @@ Liang (Leon) Wang is a Ph.D. student at Tufts University, where he studies human
 
 ## Home Page
 
-
+## Interest
+Road trip, Scuba/free dive, Sailing
 ## Research interests
 HCI, BCI, fNIRS, Machine Learning
 

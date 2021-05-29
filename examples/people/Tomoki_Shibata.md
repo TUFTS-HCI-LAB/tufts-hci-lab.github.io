@@ -3,7 +3,7 @@ title: Tomoki Shibata
 lang: en-US
 display: 
 description: 
-image: 
+image: https://github.com/TUFTS-HCI-LAB/tufts-hci-lab.github.io/blob/lwang89-patch-1/tomoki_shibata.jpeg?raw=true
 date: 2021-05-12
 tags:
   - Ph.D. candidate
