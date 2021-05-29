@@ -29,10 +29,13 @@ Scuba/free diving, Sailing, Swimming
 
 Wine 
 Favorite: Sauvignon Blanc from marlborough, Champagne
+
 Beer
 Favorite: Stout, new England IPA
+
 Whisky
 Favorite: Single malt (Glenfiddich 12)
+
 Baijiu
 Favorite: Mengzhilan (Dream of Blue)
 ## Research interests
