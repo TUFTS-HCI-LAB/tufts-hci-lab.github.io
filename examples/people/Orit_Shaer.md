@@ -3,7 +3,7 @@ title: Orit Shaer
 lang: en-US
 display: 
 description: 
-image: http://cs.wellesley.edu/~oshaer/images/oritshaer.jpg
+image: https://www.wellesley.edu/sites/default/files/styles/faculty_profile_portrait_manual/public/shaero-square.jpg?itok=vFZXwhue
 date: 2021-05-07
 tags:
   - Ph.D., Associate Professor
