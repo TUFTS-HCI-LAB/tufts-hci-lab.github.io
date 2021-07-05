@@ -3,7 +3,7 @@ title: Robert Jacob
 lang: en-US
 display: home
 description: ACM Fellow
-image: https://engineering.tufts.edu/sites/default/files/newsthumbs/news-201612-jacob_0.png
+image: https://www.cs.tufts.edu/~jacob/portrait.jpg
 date: 2021-05-13
 tags:
   - Ph.D., Professor
