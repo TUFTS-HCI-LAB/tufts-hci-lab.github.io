@@ -6,7 +6,7 @@ description: ACM Fellow
 image: https://www.cs.tufts.edu/~jacob/portrait.jpg
 date: 2021-05-13
 tags:
-  - Ph.D., Professor
+  - Ph.D., Professor, ACM Fellow
 categories:
   - Faculty, Lab Founder
 --- 
