@@ -117,22 +117,13 @@ module.exports = {
     // },
     nav: [
       { text: "Home", link: "/" },
-      // { text: "Posts", link: "/posts/" },
-      // { text: 'BackupPost', link: '/backup_post/' },
       { text: "HCI At Tufts", link: "/hci_at_tufts/" },
       { text: "People", link: "/people/" },
-      // just like Posts
       { text: "Projects", link: "/projects/" },
-      // just like about
       { text: "Publications", link: "/publications/" },
-      // { text: "Doc", link: "/doc/" },
-      // Just like Page About
+      { text: "Code & Datasets", link: "/code_and_datasets/" },
       { text: "Admissions", link: "/admissions/" },
       { text: "HCI Resources", link: "/hci_resources/" },
-      { text: "Code & Datasets", link: "/code_and_datasets/" },
-      // { text: "Tags", link: "/tag/" },
-      // { text: "Categories", link: "/category/" },
-      // { text: "About", link: "/about/" },
     ],
     // footer: [{ text: "Github", link: "https://github.com" }],
     footer: [
