@@ -1,7 +1,8 @@
 ---
 title: Taming fNIRS-based BCI Input for Better Calibration and Broader Use
-display: home
-image: https://picsum.photos/1920/1080/?random&date=2019-02-21
+lang: en-US
+display: 
+image: /code_and_datasets/UIST_ThreePhases.pdf
 date: 2019-02-20
 tags: 
   - BCI
@@ -11,3 +12,12 @@ tags:
 categories:
   - Current Project
 --- 
+## Description
+
+
+## Code
+
+## Dataset
+
+## Paper link and please cite
+
