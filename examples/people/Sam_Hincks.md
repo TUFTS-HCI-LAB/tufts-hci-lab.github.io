@@ -3,7 +3,7 @@ title: Sam Hincks
 lang: en-US
 display: 
 description: 
-image: https://media-exp1.licdn.com/dms/image/C4E03AQGXV7QOqTNQTw/profile-displayphoto-shrink_200_200/0/1573062096606?e=1627516800&v=beta&t=jMZJ8U9lrdXe8CIZuRK0NPgjRuHXlSwPQQeu2fO8WnI
+image: /people/sam-hincks.jpg
 date: 2021-05-07
 tags:
   - Ph.D., Spatial musician
