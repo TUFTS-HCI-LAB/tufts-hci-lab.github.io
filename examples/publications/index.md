@@ -4,6 +4,11 @@ image: https://picsum.photos/1920/1080/?random&date=2019-01-20
 layout: Layout_about
 ---
 
+## 2021
+---
+
+- **Taming fNIRS-based BCI Input for Better Calibration and Broader Use**, L. Wang*, Z. Huang*, Z. Zhou, D.T. McKeon, G. Blaney, M.C. Hughes†, and R.J.K Jacob†, *UIST2021*. Proc. ACM UIST 2021 Symposium on User Interface Software and Technology (2021).
+
 ## 2019
 ---
 
