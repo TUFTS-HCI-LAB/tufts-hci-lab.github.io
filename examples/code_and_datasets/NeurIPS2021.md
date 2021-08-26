@@ -23,7 +23,7 @@ Zhe Huang*, Liang Wang*, Giles Blaney, Christopher Slaughter, Devon McKeon, Ziyu
 
 *Lead authors ZH \& LW contributed equally, as did supervisory authors RJ \& MCH
 
-## Description
+## Project Description
 
 Functional near-infrared spectroscopy (fNIRS) promises a non-intrusive way to measure real-time brain activity and build responsive brain-computer interfaces. However, in its first decade of research this technology has not yet realized its potential. 
 
@@ -36,7 +36,7 @@ Functional near-infrared spectroscopy (fNIRS) promises a non-intrusive way to me
 
 Our **contributions** are:
 
-* We release a large open-access dataset of 68 participants. This dataset is the largest known to us by a factor of 2.5. Details are in [Section Dataset]() below.
+* We release a large open-access dataset of [68]() participants. This dataset is the largest known to us by a factor of 2.5. Details are in [Section Dataset]() below.
 
 * We suggest a standardized evaluation practice for assessing method performance on our dataset under three paradigms of training: subject-specific, generic, and generic + fine-tuning. clear instructions and code are provided in [Section Code]() below.
 
@@ -50,9 +50,24 @@ Public dataset release pending imminent approval from IRB.
 <!-- [Here is the link to download the dataset](https://tufts.box.com/s/x7gp7cz2xq4l8a4wluprhuwb5zgce6dg) -->
 
 ### Data Description
-
+Totally, our large open-access dataset includes **68** participants. Each subject contributes **21.33** minutes of fNIRS recordings from a controlled experimental setting with corresponding labels of workload intensity.
 ### Data Structure
+.<br>
+  - qualified_subjects_list.docx 
+  - pre-experiment
+      - Visual
+            - sub_xx.csv
+  - experiment
+      - Visual
+            - sub_xx.csv
+  - post-experiment
+      - Visual
+            - sub_xx.csv
 
+├── pexperiment<br>
+|
+|
+├── pre-experiment<br>
 ### Data Format
 
 #### Pre-experiment
