@@ -5,7 +5,7 @@ image: /code_and_datasets/fNIRS.png
 date: 2019-02-20
 tags: 
   - BCI
-  - public dataset
+  - Public Dataset
   - fNIRS
   - machine learning
 categories:
@@ -42,11 +42,17 @@ Public dataset release pending imminent approval from IRB.
 #### Pre-experiment
 It includes the non sensitive personal data we collect before the experiment.
 
-#### Experiment
-All fNIRS data store here, along with the n-back tasks accuracy.
+#### Experiment Data
+All fNIRS data store here, along with the n-back tasks accuracy and experiment log.
+1. raw data;
+2. band-pass-filtered;
+  2.a. bpf_raw_data;
+  2.b. bpf_filtered_slide_window_data;
 
-#### Post-experiment 
-We put all post experiment interviews here.
+#### Supplementary Data
+##### Demographic and contextual information
+##### subjective workload
+##### post-experiment interview
 
 ## Paper link and Please Cite
 [Paper link](https://openreview.net/forum?id=QzNHE7QHhut)
