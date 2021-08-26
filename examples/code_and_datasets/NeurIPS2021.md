@@ -8,6 +8,8 @@ tags:
   - Public Dataset
   - fNIRS
   - machine learning
+  - time-series classification
+  - cognitive workload
 categories:
   - 
 --- 
@@ -23,11 +25,25 @@ Zhe Huang*, Liang Wang*, Giles Blaney, Christopher Slaughter, Devon McKeon, Ziyu
 
 ## Description
 
-Functional near-infrared spectroscopy (fNIRS) promises a non-intrusive way to measure real-time brain activity and build responsive brain-computer interfaces. However, in its first decade of research this technology has not yet realized its potential. A primary barrier to success has been that observed fNIRS signals vary significantly across human users. Building models that generalize well to never-before-seen users has been difficult; a large amount of subject-specific data has been needed to train effective models. To help overcome this barrier, we introduce the largest open-access dataset of its kind, containing multivariate fNIRS recordings from over 60 participants, each with labeled segments indicating four possible mental workload intensity levels. Labels were collected via a controlled setting in which subjects performed standard n-back tasks to induce desired working memory levels. We further define an evaluation protocol which allows future users to report comparable numbers and fairly assess generalization potential while avoiding any overlap or leakage between train and test data. Using this dataset and standardized protocol, we show how deep learning models pre-trained using abundant fNIRS data from other participants can be effectively fine-tuned for new subjects, reaching accuracies similar to data-hungry subject-specific models while using a fraction of the data. We further show how performance improves as the size of the available dataset grows, while also analyzing error rates across key subpopulations to explore equity concerns. We share our open-access dataset and open-source code as a step toward advancing brain computer interfaces that work for many users.
+Functional near-infrared spectroscopy (fNIRS) promises a non-intrusive way to measure real-time brain activity and build responsive brain-computer interfaces. However, in its first decade of research this technology has not yet realized its potential. 
+
+* One common **barrier** to effective fNIRS-based BCIs is **_the lack of available data_**. Previous work typically collects proprietary datasets from only 10-20 subjects.
+
+* Another **barrier** to progress is the lack of a **_standardized evaluation protocol_**. Without standardized protocols, different papers may not follow the very same experimental design, making results incomparable and preventing scientific progress.
+
+* The toughest **barrier** of all to developing an accurate mental workload classifier is **_the high variation in fNIRS data_**, which makes generalizing to a new subject or session challenging.
 
 
-## Code
-[Here is the link to our code Github repo](https://github.com/lwang89/code_for_UIST.git)
+Our **contributions** are:
+
+* We release a large open-access dataset of 68 participants. This dataset is the largest known to us by a factor of 2.5. Details are in [Section Dataset]() below.
+
+* We suggest a standardized evaluation practice for assessing method performance on our dataset under three paradigms of training: subject-specific, generic, and generic + fine-tuning. clear instructions and code are provided in [Section Code]() below.
+
+
+
+
+
 
 ## Dataset
 Public dataset release pending imminent approval from IRB.
@@ -51,8 +67,11 @@ All fNIRS data store here, along with the n-back tasks accuracy and experiment l
 
 #### Supplementary Data
 ##### Demographic and contextual information
-##### subjective workload
-##### post-experiment interview
+##### Subjective workload
+##### Post-experiment interview
+
+
+## Code
 
 ## Paper link and Please Cite
 [Paper link](https://openreview.net/forum?id=QzNHE7QHhut)
