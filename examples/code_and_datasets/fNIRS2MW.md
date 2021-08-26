@@ -56,18 +56,24 @@ Totally, our large open-access dataset includes **68** participants. Each subjec
   - qualified_subjects_list.docx 
   - pre-experiment
       - Visual
-            - sub_xx.csv
+        - sub_a.csv
+        - sub_b.csv
+        - ...
+        - sub_xx.csv
   - experiment
       - Visual
-            - sub_xx.csv
+        - sub_a.csv
+        - sub_b.csv
+        - ...
+        - sub_xx.csv
   - post-experiment
       - Visual
-            - sub_xx.csv
+        - sub_a.csv
+        - sub_b.csv
+        - ...
+        - sub_xx.csv
 
-├── pexperiment<br>
-|
-|
-├── pre-experiment<br>
+
 ### Data Format
 
 #### Pre-experiment
