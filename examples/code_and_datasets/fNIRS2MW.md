@@ -21,9 +21,9 @@ If you want to download the data or have any questions, please reach out to Leon
 
 *****
 ## Paper Information
-
+Submitted to NeurIPS 2021 Datasets and Benchmarks Track
 Zhe Huang*, Liang Wang*, Giles Blaney, Christopher Slaughter, Devon McKeon, Ziyu Zhou, Alex Olwal, Robert Jacob*, Michael C Hughes*
- “The Tufts fNIRS to Mental Workload Dataset: Toward Brain-Computer Interfaces that Generalize” NeurIPS 2021 Datasets and Benchmarks Track (Round 2)
+ “The Tufts fNIRS to Mental Workload Dataset: Toward Brain-Computer Interfaces that Generalize”, submitted to NeurIPS 2021 Datasets and Benchmarks Track
 
 *Lead authors ZH \& LW contributed equally, as did supervisory authors RJ \& MCH
 
