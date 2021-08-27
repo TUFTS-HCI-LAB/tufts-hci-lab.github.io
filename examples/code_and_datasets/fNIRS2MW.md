@@ -84,8 +84,6 @@ Dataset folder structure is as below:
     - fNIRS_data
         - raw_data
           - sub_xx.csv
-        - no_band_pass_filtered
-          - sub_xx.csv
         - band_pass_filtered
           - bpf_whole_data
             - sub_xx.csv
@@ -116,7 +114,6 @@ Dataset folder structure is as below:
 | |- task_accuracy                   //
 | |- fNIRS_data                      //
 | | |- raw_data                      //
-| | |- no_band_pass_filtered         //
 | | |- band_pass_filtered            //
 | | | |- bpf_whole_data              //
 | | | |- bpf_slide_window_data       //
@@ -139,20 +136,34 @@ Dataset folder structure is as below:
 We introduce and describe the data format of fNIRS data (raw and pre-processed) and supplementary data as below:
 
 *****
-#### Experiment Data
-All fNIRS data store here, along with the n-back tasks accuracy and experiment log.
-1. raw data;
-2. band-pass-filtered;
-  2.a. bpf_raw_data;
-  2.b. bpf_filtered_slide_window_data;
+#### fNIRS Data
 
-#### Post-experiment Data
+*****
+##### raw data
+
+*****
+##### band pass filtered data
 
 
+###### whole data
+including all 16 task session data
+
+*****
+######  slide window data
+
+
+
+*****
 #### Supplementary Data
+
+*****
 ##### Demographic and contextual information
-##### Subjective workload
-##### Post-experiment interview
+
+*****
+##### nasa-tlx
+
+*****
+##### interview
 
 
 ## Code
