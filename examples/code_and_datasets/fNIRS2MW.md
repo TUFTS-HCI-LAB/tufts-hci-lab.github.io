@@ -144,7 +144,7 @@ TODO
 
 After pre-processing (**Dual-slope** and **band pass filter**), we have **_features_**/**_columns_** as below:
 * label: The label for each row.
-    * The values shoule be in the set {`0`, `1`, `2`, `3`}, representing `0`-back/`1`-back/`2`-back/`3`-back tasks respectively.
+    * The values shoule be in the set {0, 1, 2, 3}, representing 0-back/1-back/2-back/3-back tasks respectively.
     * It should be the same for all rows in the same chunk.
 * chunk (**Only in slide window data**): The chunk number for each chunk.
     * It starts at `0` and increases by `​1` for each chunk.
@@ -186,8 +186,21 @@ To ensure quality and consistency, we used several criteria to identify which su
 ##### demographic and contextual information
 
 Demographic and contextual information is recorded before the experiment. 
+
 _Please see details in the screenshot of fake data sample as below:_
 ![pre-experiment](/code_and_datasets/fNIRS2MW/pre-experiment.png)
+
+
+*****
+##### task_accuracy
+
+We measured the subject's performance at the n-back task based on the accuracy of the subject's response for each digit.
+
+the accuracy of each n-back task was recorded.
+
+_Please see details in the screenshot of fake data sample as below:_
+
+<img src="/code_and_datasets/fNIRS2MW/task_accuracy.png" width="30%" height="30%" />
 
 
 *****
@@ -209,6 +222,12 @@ Total `16` "serial_feedback" .csv files for `16` n-back tasks:
 
 _Please see details in the screenshot of deidentified data sample as below:_
 ![nasa-tlx](/code_and_datasets/fNIRS2MW/nasa-tlx.png)
+
+
+*****
+##### log
+
+Hair blocking, light leaking, fNIRS instrument settings and other issues during the experiment were recorded.
 
 
 *****
