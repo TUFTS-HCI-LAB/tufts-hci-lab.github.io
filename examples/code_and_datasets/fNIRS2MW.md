@@ -33,7 +33,7 @@ Zhe Huang*, Liang Wang*, Giles Blaney, Christopher Slaughter, Devon McKeon, Ziyu
 
 Functional near-infrared spectroscopy (**fNIRS**) promises a non-intrusive way to measure real-time brain activity and build responsive brain-computer interfaces (**BCIs**). However, in its first decade of research this technology has not yet realized its potential. 
 
-* One common **barrier** to effective fNIRS-based BCIs is **_the lack of available data_**. Previous work typically collects proprietary datasets from only 10-20 subjects.
+* One common **barrier** to effective fNIRS-based BCIs is **_the lack of available data_**. Previous work typically collects proprietary datasets from only `10`-`20` subjects.
 
 * Another **barrier** to progress is the lack of a **_standardized evaluation protocol_**. Without standardized protocols, different papers may not follow the very same experimental design, making results incomparable and preventing scientific progress.
 
