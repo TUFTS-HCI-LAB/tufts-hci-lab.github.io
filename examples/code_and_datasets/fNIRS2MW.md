@@ -51,32 +51,61 @@ Public dataset release pending imminent approval from IRB.
 
 ### Data Description
 Totally, our large open-access dataset includes **68** participants. Each subject contributes **21.33** minutes of fNIRS recordings from a controlled experimental setting with corresponding labels of workload intensity.
+
+Our released dataset includes:
+* **fNIRS recordings** in [fNIRS_data]();
+* **Supplementary data**:
+    * **demographic and contextual information** in [pre-experiment]();
+    * **Cognitive task performance** in [task_accuracy]();
+    * **experiment log** in [log]();
+    * **post-experiment interview** in [interview]();
+    * **subjective workload** in [nasa-tlx]();
+
 ### Data Structure
-.<br>
-  - qualified_subjects_list.docx 
+
+
+.
+  - qualified_subjects_list.pdf
   - pre-experiment
-      - Visual
-        - sub_a.csv
-        - sub_b.csv
-        - ...
-        - sub_xx.csv
+      - sub_xx.csv
   - experiment
-      - Visual
-        - sub_a.csv
-        - sub_b.csv
-        - ...
-        - sub_xx.csv
+    - log
+      - sub_xx.csv
+    - task_accuracy
+      - sub_xx.csv
+    - fNIRS_data
+        - raw_data
+          - sub_xx.csv
+        - no_band_pass_filtered
+          - sub_xx.csv
+        - band_pass_filtered
+          - bpf_whole_data
+            - sub_xx.csv
+          - bpf_slide_window_data
+            - bpf_size_2sec_10ts_stride_3ts
+              - sub_xx.csv
+            - bpf_size_5sec_25ts_stride_3ts
+              - sub_xx.csv
+            - bpf_size_10sec_50ts_stride_3ts
+              - sub_xx.csv
+            - bpf_size_20sec_100ts_stride_3ts
+              - sub_xx.csv
+            - bpf_size_30sec_150ts_stride_3ts
+              - sub_xx.csv
+            - bpf_size_40sec_200ts_stride_3ts
+              - sub_xx.csv
+
+  
   - post-experiment
-      - Visual
-        - sub_a.csv
-        - sub_b.csv
-        - ...
+      - nasa-tlx
         - sub_xx.csv
+      - interview
+        - sub_xx.pdf
 
 
 ### Data Format
 
-#### Pre-experiment
+#### Pre-experiment Data
 It includes the non sensitive personal data we collect before the experiment.
 
 #### Experiment Data
@@ -85,6 +114,9 @@ All fNIRS data store here, along with the n-back tasks accuracy and experiment l
 2. band-pass-filtered;
   2.a. bpf_raw_data;
   2.b. bpf_filtered_slide_window_data;
+
+#### Post-experiment Data
+
 
 #### Supplementary Data
 ##### Demographic and contextual information
