@@ -86,7 +86,7 @@ _Details of task sessions is as below:_
 ### Data Structure
 
 Our released dataset includes:
-* **fNIRS recordings** in [fNIRS_data]();
+* **fNIRS measurements** in [fNIRS_data]();
 * **Supplementary data**:
     * **demographic and contextual information** in [pre-experiment]();
     * **Cognitive task performance** in [task_accuracy]();
