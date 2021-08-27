@@ -18,6 +18,7 @@ Currently, we are waiting for the Tufts IRB to give us permission to release the
 
 If you want to download the data or have any questions, please reach out to Leon (leonwang_at_cs.tufts.edu).
 
+
 *****
 ## Paper Information
 
@@ -27,6 +28,7 @@ Zhe Huang*, Liang Wang*, Giles Blaney, Christopher Slaughter, Devon McKeon, Ziyu
 *Lead authors ZH \& LW contributed equally, as did supervisory authors RJ \& MCH
 
 [Paper link](https://openreview.net/forum?id=QzNHE7QHhut) 
+
 
 *****
 ## Project Description
@@ -49,15 +51,19 @@ Our **contributions** are:
   * generic, 
   * generic + fine-tuning.
 
+
 *****
 ## Dataset
 
 Public dataset release pending imminent approval from IRB.
 <!-- [Here is the link to download the dataset](https://tufts.box.com/s/x7gp7cz2xq4l8a4wluprhuwb5zgce6dg) -->
 
+
 *****
 ### License
+
 [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/)
+
 
 *****
 ### General Description
@@ -65,18 +71,15 @@ Public dataset release pending imminent approval from IRB.
 Totally, our large open-access dataset includes `68` participants. Each subject contributes `21.33` minutes of fNIRS recordings from a controlled experimental setting with corresponding labels of workload intensity.
 
 
-
 ***** 
 #### Task Description
-
 
 * Each participant completed `16` blocks of n-back trails (*0→1→2→3→1→2→3→0→2→3→0→1→3→0→1→2*).
 * Each block is composed of:
   * `40` trails ( display for `0.5` seconds, hidden for `1.5` seconds).
 
-Details of task session is in Figure "task_flowchart".
-
-
+_Details of task sessions is as below:_ 
+![task flowchart](/code_and_datasets/fNIRS2MW/task-flowchart.png)
 
 
 *****
@@ -124,6 +127,7 @@ Our released dataset includes:
 
 We introduce and describe the data format of fNIRS data (raw and pre-processed) and supplementary data as below:
 
+
 *****
 #### fNIRS Data
 `68` participants were recruited, aged `18` to `44` years. `None` of the participants reported neurological, psychiatric, or other brain-related diseases that might affect the result.
@@ -133,6 +137,8 @@ We introduce and describe the data format of fNIRS data (raw and pre-processed) 
 ##### raw data
 
 TODO
+
+
 *****
 ##### band pass filtered data
 
@@ -151,11 +157,13 @@ After pre-processing (**Dual-slope** and **band pass filter**), we have **_featu
 
 ![pre process](/code_and_datasets/fNIRS2MW/pre-processing.png)
 
+
 ###### whole data
 Each subject's .csv file includes continuous data of `16` tasks (exclude data during self-evaluation ([nasa-tlx]()) and rest period).
 
 _Screenshot of deidentified data sample is as below:_
 ![whole data](/code_and_datasets/fNIRS2MW/bpf_whole_data.png)
+
 
 *****
 ###### slide window data
@@ -167,17 +175,24 @@ We offer pre processed data in :
 _Screenshot of deidentified data sample is as below:_
 ![slide window data](/code_and_datasets/fNIRS2MW/bpf_slide_window_data.png)
 
+
 *****
 #### Supplementary Data
+
 To ensure quality and consistency, we used several criteria to identify which subjects' data are suitable for classifier evaluation.
+
+
 *****
 ##### demographic and contextual information
+
 Demographic and contextual information is recorded before the experiment. 
 _Please see details in the screenshot of fake data sample as below:_
-![slide window data](/code_and_datasets/fNIRS2MW/pre-experiment.png)
+![pre-experiment](/code_and_datasets/fNIRS2MW/pre-experiment.png)
+
 
 *****
 ##### nasa-tlx
+
 This is a good way to evaluate the **perceived/subjective** mental workload.
 
 Total `16` "serial_feedback" .csv files for `16` n-back tasks:
@@ -191,11 +206,14 @@ Total `16` "serial_feedback" .csv files for `16` n-back tasks:
   * effort: effort needed for the task from low (`0`) to high (`100`)
   * frustration: frustration felt during the task from low (`0`) to high (`100`)
 
+
 _Please see details in the screenshot of deidentified data sample as below:_
-![slide window data](/code_and_datasets/fNIRS2MW/nasa-tlx.png)
+![nasa-tlx](/code_and_datasets/fNIRS2MW/nasa-tlx.png)
+
 
 *****
 ##### interview
+
 Post-experiment interviews were converted from audio to text (pdf version) by the operator. 
 
 The original audios were **destroyed** immediately following the IRB protocol.
@@ -203,6 +221,4 @@ The original audios were **destroyed** immediately following the IRB protocol.
 
 *****
 ## Code
-
-
 
