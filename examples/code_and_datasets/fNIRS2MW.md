@@ -56,7 +56,7 @@ Public dataset release pending imminent approval from IRB.
 *****
 ### Data Description
 
-Totally, our large open-access dataset includes **68** participants. Each subject contributes **21.33** minutes of fNIRS recordings from a controlled experimental setting with corresponding labels of workload intensity.
+Totally, our large open-access dataset includes `68` participants. Each subject contributes `21.33` minutes of fNIRS recordings from a controlled experimental setting with corresponding labels of workload intensity.
 
 *****
 Our released dataset includes:
@@ -71,7 +71,7 @@ Our released dataset includes:
 *****
 ### Data Structure
 
-
+Dataset folder structure is as below:
 .
   - qualified_subjects_list.pdf
   - pre-experiment
@@ -102,20 +102,41 @@ Our released dataset includes:
               - sub_xx.csv
             - bpf_size_40sec_200ts_stride_3ts
               - sub_xx.csv
-
   
   - post-experiment
       - nasa-tlx
         - sub_xx.csv
       - interview
         - sub_xx.pdf
+```
+|- qualified_subjects_list.pdf            
+|- pre-experiment                    //
+|- experiment                        //
+| |- log                             //
+| |- task_accuracy                   //
+| |- fNIRS_data                      //
+| | |- raw_data                      //
+| | |- no_band_pass_filtered         //
+| | |- band_pass_filtered            //
+| | | |- bpf_whole_data              //
+| | | |- bpf_slide_window_data       //
+| | | | |- bpf_size_2sec_10ts_stride_3ts
+| | | | |- bpf_size_5sec_25ts_stride_3ts
+| | | | |- bpf_size_10sec_50ts_stride_3ts
+| | | | |- bpf_size_20sec_100ts_stride_3ts
+| | | | |- bpf_size_30sec_50ts_stride_3ts
+| | | | |- bpf_size_40sec_200ts_stride_3ts
+|- post-experiment                   //
+| |- nasa-tlx                        //
+| |- interview                       //
+| |- * (all other folders)  
+```
+
 
 *****
 ### Data Format
 
-*****
-#### Pre-experiment Data
-It includes the non sensitive personal data we collect before the experiment.
+We introduce and describe the data format of fNIRS data (raw and pre-processed) and supplementary data as below:
 
 *****
 #### Experiment Data
