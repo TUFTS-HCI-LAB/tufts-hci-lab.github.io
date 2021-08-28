@@ -84,7 +84,9 @@ _Details of task sessions is as below:_
 ***** 
 ##### Task introduction
 
-**N-back video introduction**: Before experiment started, the system played a short introductory video, showing an example of a user completing n-back tasks, with voice-over and caption explanations.
+**N-back video introduction**: 
+
+Before experiment started, the system played a short introductory video, showing an example of a user completing n-back tasks, with voice-over and caption explanations.
 
 _Sample scripts for N-back task video are as below:_
 
@@ -125,7 +127,9 @@ _Sample scripts for N-back task video are as below:_
 >Please remain seated and do not talk or adjust the headband while completing the experiment. However, if you do feel uncomfortable at any point, let the operator know and they will stop the experiment.
 
 *****
-**Generel introduction**: Before each task, the system displayed a graphic depicting how to identify targets for the current n, with voice-over.
+**Generel introduction**: 
+
+Before each task, the system displayed a graphic depicting how to identify targets for the current n, with voice-over.
 
 _The graphic and sample scripts for 0-back are as below:_
 
