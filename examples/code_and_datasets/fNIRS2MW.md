@@ -81,6 +81,82 @@ Totally, our large open-access dataset includes `68` participants. Each subject 
 _Details of task sessions is as below:_ 
 ![task flowchart](/code_and_datasets/fNIRS2MW/task-flowchart.png)
 
+***** 
+##### Task introduction
+
+**N-back video introduction**: Before experiment started, the system played a short introductory video, showing an example of a user completing n-back tasks, with voice-over and caption explanations.
+
+_Sample scripts for N-back task video are as below:_
+
+>Today you will be completing a series of n-back tasks. You will be presented with many numbers, one after another. Some of these numbers will be targets. A number is a target if it is identical to the one shown n steps previously. 
+>
+>Here is an example of a 2-back task. In this case, n = 2. The highlighted 8 is a target number, since the number 2 steps back is also 8.
+>
+>Your job will be to press the left arrow key each time you see one of these target numbers. If the number shown is not a target number, you should press the right arrow key.
+*****
+>Let’s view an example of a 0-back task. 
+>
+>At the beginning of each task, you will hear a few beeps which indicate the start of the task.
+>
+>The current type of n-back task can be found at the top of the task window. In this example, n = 0. For the purposes of this demo only, the stack of numbers already shown is included beneath the task window.
+>
+>When n = 0, every number is a target, since every number is identical to the number 0 steps back. That is, every number is the same as itself. For 0-back, the participant presses the left arrow key after each number appears, and never presses the right arrow key.
+*****
+>Now let’s view an example of a 1-back task. 
+>
+>The participant should press the right arrow key for all non-target numbers. When n = 1, a number is only a target if it is identical to the number 1 step back. Once the participant identifies a target number, they should press the left arrow key instead.
+>
+>For example, this 4 is a target number because the previous number was also 4. The participant should press the left arrow key, and then continue pressing the right arrow key until they see the next target number.
+>
+>Here is another target number. The number 1-step back was also 2, so the participant should press the left arrow key.
+>
+>During today’s experiment, the stack of already shown numbers will not be visible to you. It is your job to remember the numbers that were n-steps back so that you are able to identify the correct target numbers.
+*****
+>There will be 16 rounds in total. During each round, you will complete an n-bask task, where n is either 0, 1, 2, or 3. 
+>
+>Before each task, there will be instructions reminding you how to find the target numbers for the current n. During the task, you will be shown 40 numbers. Each time you see a target number, you should press the left arrow key. For all non-target numbers, you should press the right arrow key. 
+>
+>After each task, you will complete a survey. Once you have completed the survey, you will be able to rest for 20 seconds. 
+>
+>The experiment will take approximately 40 minutes.
+>
+>After the entire experiment is finished, you will complete a short interview about your experience.  
+>
+>Please remain seated and do not talk or adjust the headband while completing the experiment. However, if you do feel uncomfortable at any point, let the operator know and they will stop the experiment.
+
+*****
+**Generel introduction**: Before each task, the system displayed a graphic depicting how to identify targets for the current n, with voice-over.
+
+_The graphic and sample scripts for 0-back are as below:_
+
+<img src="/code_and_datasets/fNIRS2MW/intro_0_back.png" width="50%" height="30%" />
+
+>This is a 0 back task. Every number is a target number.
+
+
+*****
+_The graphic and sample scripts for 1-back are as below:_
+
+<img src="/code_and_datasets/fNIRS2MW/intro_1_back.png" width="50%" height="30%" />
+
+>This is a 1 back task. A number is a target if it is identical to the previous number.
+
+
+*****
+_The graphic and sample scripts for 2-back are as below:_
+
+<img src="/code_and_datasets/fNIRS2MW/intro_2_back.png" width="50%" height="30%" />
+
+>This is a 2 back task. A number is a target if it is identical to the number 2 steps back.
+
+
+*****
+_The graphic and sample scripts for 3-back are as below:_
+
+<img src="/code_and_datasets/fNIRS2MW/intro_3_back.png" width="50%" height="30%" />
+
+>This is a 3 back task. A number is a target if it is identical to the number 3 steps back.
+
 
 *****
 ### Data Structure
