@@ -14,16 +14,15 @@ categories:
   - 
 --- 
 
-Currently, we are waiting for the Tufts IRB to give us permission to release the participants' data. (We are almost there, and we apologize for the inconvenience).
-
-If you want to download the data or have any questions, please reach out to Leon (leonwang_at_cs.tufts.edu).
+If you have any questions, please reach out to Leon (leonwang_at_cs.tufts.edu).
 
 
 *****
 ## Paper Information
-Submitted to NeurIPS 2021 Datasets and Benchmarks Track
+_Submitted to NeurIPS 2021 Datasets and Benchmarks Track_
+
 Zhe Huang*, Liang Wang*, Giles Blaney, Christopher Slaughter, Devon McKeon, Ziyu Zhou, Alex Olwal, Robert Jacob*, Michael C Hughes*
- “The Tufts fNIRS to Mental Workload Dataset: Toward Brain-Computer Interfaces that Generalize”, submitted to NeurIPS 2021 Datasets and Benchmarks Track
+ “The Tufts fNIRS to Mental Workload Dataset: Toward Brain-Computer Interfaces that Generalize”
 
 *Lead authors ZH \& LW contributed equally, as did supervisory authors RJ \& MCH
 
@@ -54,15 +53,24 @@ Our **contributions** are:
 
 *****
 ## Dataset
-
-Public dataset release pending imminent approval from IRB.
-<!-- [Here is the link to download the dataset](https://tufts.box.com/s/x7gp7cz2xq4l8a4wluprhuwb5zgce6dg) -->
+[Link to fNIRS2MW dataset](https://tufts.box.com/s/1e0831syu1evlmk9zx2pukpl3i32md6r)
 
 
 *****
 ### License
 
 [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/)
+
+
+*****
+### IRB Approval
+
+Procedures to collect data were approved by [Tufts institution's IRB](https://viceprovost.tufts.edu/about-sber-irb), and our deidentified dataset was approved for public release (STUDY00000959). Each participant gave informed written consent, and was compensated \$20 US.
+
+
+*****
+### COVID-19 Safety Approval
+Because collection occurred during the COVID-19 pandemic in early 2021, we also got approval from the Tufts Integrative Safety Committee (ISC). We followed required sanitation and social distancing practices: experimenters used personal protective equipment and disinfected the fNIRS probe for each subject.
 
 
 *****
@@ -128,7 +136,6 @@ _Sample scripts for N-back task video are as below:_
 
 *****
 **Generel introduction**: 
-
 Before each task, the system displayed a graphic depicting how to identify targets for the current n, with voice-over.
 
 _The graphic and sample scripts for 0-back are as below:_
@@ -165,14 +172,14 @@ _The graphic and sample scripts for 3-back are as below:_
 *****
 ### Data Structure
 
-Our released dataset includes:
-* **fNIRS measurements** in [fNIRS_data]();
+Our released dataset includes ([Link to fNIRS2MW dataset](https://tufts.box.com/s/1e0831syu1evlmk9zx2pukpl3i32md6r)):
+* **fNIRS measurements** in [fNIRS_data](https://tufts.box.com/s/9jwy67dw2b6emmslutxhmgihk92ivnf2);
 * **Supplementary data**:
-    * **demographic and contextual information** in [pre-experiment]();
-    * **Cognitive task performance** in [task_accuracy]();
-    * **experiment log** in [log]();
-    * **post-experiment interview** in [interview]();
-    * **subjective workload** in [nasa-tlx]();
+    * **demographic and contextual information** in [pre-experiment](https://tufts.box.com/s/x2o6hny7kwudg58e1364gdogbvhnwq4f);
+    * **Cognitive task performance** in [task_accuracy](https://tufts.box.com/s/gme0gsc6z9vj0v4dhchtqh04b4fpy8tm);
+    * **experiment log** in [log](https://tufts.box.com/s/9ruep9b6tpeymda9qrubq64oampfh9br);
+    * **post-experiment interview** in [interview](https://tufts.box.com/s/jrn9rvph8xugstuz9ixra1l2mpfqopdh);
+    * **subjective workload** in [nasa-tlx](https://tufts.box.com/s/c5y3m59wwwem0j792epjxhnq4uei5swq);
 
 
 ```
@@ -209,18 +216,18 @@ We introduce and describe the data format of fNIRS data (raw and pre-processed) 
 
 
 *****
-#### fNIRS Data
+#### [fNIRS Data](https://tufts.box.com/s/9jwy67dw2b6emmslutxhmgihk92ivnf2)
 `68` participants were recruited, aged `18` to `44` years. `None` of the participants reported neurological, psychiatric, or other brain-related diseases that might affect the result.
 
 
 *****
-##### raw data
+##### [raw data](https://tufts.box.com/s/i3cphal98hbj3vixj8ypatihwfyer1ot)
 
 TODO
 
 
 *****
-##### band pass filtered data
+##### [band pass filtered data](https://tufts.box.com/s/bj0iml74am3wnuittzmjggjemxxgz2cp)
 
 After pre-processing (**Dual-slope** and **band pass filter**), we have **_features_**/**_columns_** as below:
 * label: The label for each row.
@@ -238,7 +245,7 @@ After pre-processing (**Dual-slope** and **band pass filter**), we have **_featu
 ![pre process](/code_and_datasets/fNIRS2MW/pre-processing.png)
 
 
-###### whole data
+###### [whole data](https://tufts.box.com/s/wyvz6utfrd5y5p2js0kj1990dspbnwdn)
 Each subject's .csv file includes continuous data of `16` tasks (exclude data during self-evaluation ([nasa-tlx]()) and rest period).
 
 _Screenshot of deidentified data sample is as below:_
@@ -246,7 +253,7 @@ _Screenshot of deidentified data sample is as below:_
 
 
 *****
-###### slide window data
+###### [slide window data](https://tufts.box.com/s/7l8rz3tpos1il637kmhn57mzacdldyv4)
 
 We offer pre processed data in :
 * Window size: `10`/`25`/`50`/`100`/`150`/`200` timestamps (`2`/`5`/`10`/`20`/`30`/`40` seconds)
@@ -263,16 +270,16 @@ To ensure quality and consistency, we used several criteria to identify which su
 
 
 *****
-##### demographic and contextual information
+##### [demographic and contextual information](https://tufts.box.com/s/x2o6hny7kwudg58e1364gdogbvhnwq4f)
 
 Demographic and contextual information is recorded before the experiment. 
 
-_Please see details in the screenshot of fake data sample as below:_
-![pre-experiment](/code_and_datasets/fNIRS2MW/pre-experiment.png)
+_Please see details in the data directly_
+
 
 
 *****
-##### task_accuracy
+##### [task_accuracy](https://tufts.box.com/s/gme0gsc6z9vj0v4dhchtqh04b4fpy8tm)
 
 We measured the subject's performance at the n-back task based on the accuracy of the subject's response for each digit.
 
@@ -284,7 +291,7 @@ _Please see details in the screenshot of fake data sample as below:_
 
 
 *****
-##### nasa-tlx
+##### [nasa-tlx](https://tufts.box.com/s/c5y3m59wwwem0j792epjxhnq4uei5swq)
 
 This is a good way to evaluate the **perceived/subjective** mental workload.
 
@@ -305,13 +312,13 @@ _Please see details in the screenshot of deidentified data sample as below:_
 
 
 *****
-##### log
+##### [log](https://tufts.box.com/s/9ruep9b6tpeymda9qrubq64oampfh9br)
 
 Hair blocking, light leaking, fNIRS instrument settings and other issues during the experiment were recorded.
 
 
 *****
-##### interview
+##### [interview](https://tufts.box.com/s/jrn9rvph8xugstuz9ixra1l2mpfqopdh)
 
 Post-experiment interviews were converted from audio to text (pdf version) by the operator. 
 
@@ -319,5 +326,6 @@ The original audios were **destroyed** immediately following the IRB protocol.
 
 
 *****
-## Code
+## [Code](https://github.com/tufts-ml/fNIRS-mental-workload-classifiers)
+Please check README in the repo.
 
