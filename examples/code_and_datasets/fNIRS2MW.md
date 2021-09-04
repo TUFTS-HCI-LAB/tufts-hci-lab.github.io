@@ -200,7 +200,7 @@ Our released dataset includes ([Link to fNIRS2MW dataset](https://tufts.box.com/
 | | | | |- size_05sec_25ts_stride_03ts
 | | | | |- size_10sec_50ts_stride_03ts
 | | | | |- size_20sec_100ts_stride_03ts
-| | | | |- size_30sec_50ts_stride_03ts
+| | | | |- size_30sec_150ts_stride_03ts
 | | | | |- size_40sec_200ts_stride_03ts
 |- post-experiment                             //
 | |- nasa-tlx                                  //
