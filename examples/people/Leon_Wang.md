@@ -31,7 +31,7 @@ Wine
 Favorite: Sauvignon Blanc from marlborough, Champagne
 
 Beer
-Favorite: Stout, new England IPA
+Favorite: Stout, new England IPA (Fiddlehead, Cloud Candy)
 
 Whisky
 Favorite: Single malt (Glenfiddich 12)
