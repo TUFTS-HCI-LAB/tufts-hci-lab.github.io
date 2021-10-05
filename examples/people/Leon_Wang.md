@@ -17,28 +17,26 @@ Liang (Leon) Wang is a Ph.D. student at Tufts University, where he studies human
 ## Home Page
 
 ## Interest
-Books: Poems, Science fiction
 
-Movie: Up In The Air, Casino Royale, Beauty and the Beast, Titanic
+**Road trip** & **Strength training** & **Cardio workout** & **Scuba/free diving** & **Sailing & Swimming**
 
-Road trip:
+**Books**: Poems, Science fiction
 
-Strength training & Cardio workout
+**Movies**: Up In The Air, Casino Royale, Beauty and the Beast, Titanic
 
-Scuba/free diving, Sailing, Swimming
 
-Wine 
+**Wine** 
 Favorite: Sauvignon Blanc from marlborough, Champagne
 
-Beer
+**Beer**
 Favorite: Stout, new England IPA (Fiddlehead, Cloud Candy)
 
-Whisky
+**Whisky**
 Favorite: Single malt (Glenfiddich 12)
 
-Baijiu
+**Baijiu**
 Favorite: Mengzhilan (Dream of Blue)
 ## Research interests
 HCI, BCI, fNIRS, Machine Learning
 
-## Google Scholar
+## [Google Scholar](https://scholar.google.com/citations?user=e7q31rEAAAAJ&hl=en&oi=ao)
