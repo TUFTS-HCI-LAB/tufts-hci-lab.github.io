@@ -2,81 +2,148 @@
 title: The Tufts fNIRS to Mental Workload Dataset
 display: home
 image: /code_and_datasets/fNIRS2MW/fNIRS.png
-date: 2019-02-20
+date: 2021-11-10
 tags: 
   - BCI
-  - Public Dataset
   - fNIRS
   - machine learning
-  - time-series classification
+  - time series classification
   - cognitive workload
 categories:
   - 
 --- 
 
-If you have any questions, please reach out to Leon (leonwang_at_cs.tufts.edu).
+Welcome to the Tufts fNIRS to Mental Workload (fNIRS2MW) open-access dataset! 
+
+Using this dataset, we can train and evaluate machine learning classifiers that consume a short window (30 seconds) of multivariate fNIRS recordings and predict the mental workload intensity of the user during that interval. 
+
+We have collected fNIRS brain activity recordings from 68 partipants during a series of controlled n-back experimental tasks designed to induce working memory workloads of varying relative intensity.
+
+Of all available datasets suitable for building mental workload classifiers, this dataset is the largest known to us by a factor of 2.5! Plus, it supports fairness audits by age, gender, and race.
 
 
-*****
-## Paper Information
-_Submitted to NeurIPS 2021 Datasets and Benchmarks Track_
+## Quick Links
 
-Zhe Huang*, Liang Wang*, Giles Blaney, Christopher Slaughter, Devon McKeon, Ziyu Zhou, Alex Olwal, Robert Jacob*, Michael C Hughes*
- “The Tufts fNIRS to Mental Workload Dataset: Toward Brain-Computer Interfaces that Generalize”
+* [Dataset files on Box.com](https://tufts.box.com/s/1e0831syu1evlmk9zx2pukpl3i32md6r)
+* Dataset License: [CC-By-4.0](https://creativecommons.org/licenses/by/4.0/)
+* [Code on Github](https://github.com/tufts-ml/fNIRS-mental-workload-classifiers)
 
-*Lead authors ZH \& LW contributed equally, as did supervisory authors RJ \& MCH
+Jump to: [<a href="#motivation">Project Motivation</a>] |  [<a href="#summary">Dataset Summary</a>] | [<a href="#publications">Publications</a>] | [<a href="#collection">Data Collection Procedures</a>]
 
-[Paper link](https://openreview.net/forum?id=QzNHE7QHhut) 
+If you have any questions, please reach out to Leon (leonwang(at)cs.tufts.edu)
+
+# <a name="motivation"> Project Motivation </a>
+
+We are interested in building *brain computer interfaces* (**BCIs**) that would help out everyday computer users working at a desktop or laptop. In our target future use case, a user would actively use a keyboard and mouse as usual, but also wear a non-intrusive headband sensor that would passively provide real-time measurements of brain activity to the computer. Based on moment-to-moment estimates of mental workload, the computer could adjust the interface to support the user. 
+
+Functional near-infrared spectroscopy (**fNIRS**) is a promising sensor technology for achieving this goal of "everyday BCI". We have developed a prototype fNIRS probe mounted on a headband that we used to collect this dataset.
+
+Looking at the first decade of research on using fNIRS to estimate mental workload, we have identified three barriers that stand in the way of building effective mental workload classifiers using fNIRS data:
+
+* 1) **_The lack of available data_**. Previous work typically collects proprietary datasets from only 10-30 subjects, often from very homogenous populations. Much larger, more heterogeneous open-access datasets are needed to build everyday BCI systems that work for many users.
+
+* 2) **_ The lack of standardized evaluation protocols _**. Many previous efforts to build mental workload classifiers do not follow best practices in terms of dividing data into training and test sets in a way that allows reliable assessment of generalization potential (how well will this work for a new user?). For many works, it is not even clear how to reproduce their train/test splits. The release of a dataset should be accompanied by a standardized protocol, so that other teams can follow the very same experimental design, which makes results comparable and enables scientific progress.
+
+* 3) **_ The high cross-subject variability in fNIRS data _**. Collected sensor data varies due to differences in individual physiology, sensor placement, and other sources of noise. It is important that datasets represent this diversity so that progress can be made in generalizing to new users and new sessions.
 
 
-*****
-## Project Description
-
-Functional near-infrared spectroscopy (**fNIRS**) promises a non-intrusive way to measure real-time brain activity and build responsive brain-computer interfaces (**BCIs**). However, in its first decade of research this technology has not yet realized its potential. 
-
-* One common **barrier** to effective fNIRS-based BCIs is **_the lack of available data_**. Previous work typically collects proprietary datasets from only `10`-`20` subjects.
-
-* Another **barrier** to progress is the lack of a **_standardized evaluation protocol_**. Without standardized protocols, different papers may not follow the very same experimental design, making results incomparable and preventing scientific progress.
-
-* The toughest **barrier** of all to developing an accurate mental workload classifier is **_the high variation in fNIRS data_**, which makes generalizing to a new subject or session challenging.
-
-*****
 Our **contributions** are:
 
-* We release **_a large open-access dataset_** of `68` participants. This dataset is the largest known to us by a factor of `2.5`. Details are in [Section Dataset]() below.
+* We release **_ a large open-access dataset_** of 68 participants. This dataset is the largest known to us by a factor of 2.5. 
 
-* We suggest **_a standardized evaluation practice_** for assessing method performance on our dataset under three paradigms of training (clear instructions and code are provided in [Section Code]() below): 
-  * subject-specific, 
-  * generic, 
-  * generic + fine-tuning.
+* We provide a **_ standardized protocol _** for evaluating classifiers and report benchmark results on our data under three paradigms of training: subject-specific, generic, and generic +
+fine-tuning. See paper and code for details.
 
+* We provide **_ rich demographic information for each subject _** (age, gender, race, handedness) which enables auditing the "fairness" of fNIRS classifier performance across subpopulations. We view such audits as essential to make sure BCI works for everybody.
+
+* Our dataset is targeted at **_ everyday BCI _**. Our headband-mounted sensor is non-intrusive and easy to put on / take off when performing everyday tasks. It does not require a fabric cap covering the whole skull (like many alternatives) and does not require any complicated registration to landmarks.
+
+# <a name="summary"> Dataset Summary </a>
+
+For each of the 68 eligible subjects in our dataset, our dataset contains:
+
+* demographic information
+* the raw fNIRS recordings (a 21 minute long 8-channel time series at 5.2 Hz)
+* labels indicating the intended mental workload level (0-back, 1-back, 2-back, 3-back) for each interval of the experiment
+
+
+### Sliding window fNIRS data for classifiers
+
+To improve analysis speed and reproducibility, we also make available a preprocessed version of the data that was used in all our reported experiments. We applied bandpass filtering to remove artifacts, and extracted sliding windows of length 30 seconds and stride 0.6 seconds (3 timesteps).
+
+Per-subject CSV files containing the sliding window data using windows with 30-second duration and 0.6-second stride are available here: <https://tufts.app.box.com/s/7l8rz3tpos1il637kmhn57mzacdldyv4/folder/144901642550>
+
+_Screenshot of the first few lines of the CSV from one subject's data:_
+![slide window data](/code_and_datasets/fNIRS2MW/bpf_slide_window_data.png)
+
+Each row of the CSV file represents the fNIRS sensor measurements at one timestep.
+
+There are 2 columns used as *keys and labels*:
+
+* `chunk` : indicating the index of the window (the window index increments by one as time goes on)
+* `label` : indicating if the intensity level, either 0/1/2/3
+
+All rows with the same `chunk` id represent the time series for a specific individual window. This window of measurements is the input to our classifier.
+
+There are 8 measurement columns, which we use as *features* for machine learning classifiers:
+
+* AB_I_O, AB_PHI_O, AB_I_DO, AB_PHI_DO
+* CD_I_O, CD_PHI_O, CD_I_DO, CD_PHI_DO
+
+Each column is a separate measurement of a hemoglobin concentration in the blood moving through the user's brain. Measuring the changes in these blood oxygen concentrations over time can be a useful proxy of mental workload intensity. The units of each measurement are μmol/L (micromoles per liter).
+
+The feature names here indicate:
+
+* which sensor location on the forehead was used (AB or CD)
+* which optical measurement type was used (I = intensity, PHI= phase)
+* which blood oxygen concentration was being measured (O = oxygenated hemoglobin; DO = deoxygenated hemoglobin)
+
+
+Note: Our box.com data release also offer other window sizes (2, 5, 10, 20, 30, and 40 seconds) if desired. We focused on the 30-second windows, which we identified as preferred.
+
+
+
+
+# <a name="publications"> Publications </a>
+
+The paper describing our dataset and benchmarks can be found here:
+
+<blockquote>
+<p>
+  <a href="https://openreview.net/pdf?id=QzNHE7QHhut">The Tufts fNIRS Mental Workload Dataset & Benchmark for Brain-Computer Interfaces that Generalize</a>
+  <br />
+  Zhe Huang, Liang Wang, Giles Blaney, Christopher Slaughter, Devon McKeon, Ziyu Zhou, Robert Jacob, and <a href="https:www.michaelchughes.com">Michael C. Hughes</a>
+  <br />
+  To appear in the Proceedings of <i><a href="">Neural Information Processing Systems (NeurIPS 2021) Track on Datasets and Benchmarks </a></i>, 2021
+</p>
+</blockquote>
+
+Lead authors ZH \& LW contributed equally, as did supervisory authors RJ \& MCH.
+
+We are pleased to report that the paper describing our dataset and benchmarks was recently accepted for publication at the new [Track on Datasets and Benchmarks happening at NeurIPS 2021](). NeurIPS is a top-tier conference for machine learning research.
+
+
+Please cite our paper if you find this dataset useful:
+
+<pre>
+@inproceedings{huangfNIRS2MW2021,
+    title = {The Tufts fNIRS Mental Workload Dataset & Benchmark for Brain-Computer Interfaces that Generalize},
+    booktitle = {Proceedings of the Neural Information Processing Systems (NeurIPS) Track on Datasets and Benchmarks},
+    author = {Huang, Zhe and Wang, Liang and Blaney, Giles and Slaughter, Christopher and McKeon, Devon and Zhou, Ziyu and Jacob, Robert J. K. and Hughes, Michael C.},
+    year = {2021},
+    url = {https://openreview.net/pdf?id=QzNHE7QHhut},
+}
+</pre>
+
+
+# <a name="collection"> Data Collection Procedures </a>
 
 *****
-## Dataset
-[Link to fNIRS2MW dataset](https://tufts.box.com/s/1e0831syu1evlmk9zx2pukpl3i32md6r)
-
-
-*****
-### License
-
-[CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/)
-
-
-*****
-### IRB Approval
+### IRB and COVID-19 Safety Approval
 
 Procedures to collect data were approved by [Tufts institution's IRB](https://viceprovost.tufts.edu/about-sber-irb), and our deidentified dataset was approved for public release (STUDY00000959). Each participant gave informed written consent, and was compensated \$20 US.
 
-
-*****
-### COVID-19 Safety Approval
 Because collection occurred during the COVID-19 pandemic in early 2021, we also got approval from the Tufts Integrative Safety Committee (ISC). We followed required sanitation and social distancing practices: experimenters used personal protective equipment and disinfected the fNIRS probe for each subject.
-
-
-*****
-### General Description
-
-Totally, our large open-access dataset includes `68` participants. Each subject contributes `21.33` minutes of fNIRS recordings from a controlled experimental setting with corresponding labels of workload intensity.
 
 
 ***** 
@@ -324,8 +391,4 @@ Post-experiment interviews were converted from audio to text (pdf version) by th
 
 The original audios were **destroyed** immediately following the IRB protocol.
 
-
-*****
-## [Code](https://github.com/tufts-ml/fNIRS-mental-workload-classifiers)
-Please check README in the repo.
 
