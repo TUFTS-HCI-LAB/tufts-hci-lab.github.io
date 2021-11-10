@@ -47,12 +47,12 @@ Looking at the first decade of research on using fNIRS to estimate mental worklo
 * 3) **_ The high cross-subject variability in fNIRS data _**. Collected sensor data varies due to differences in individual physiology, sensor placement, and other sources of noise. It is important that datasets represent this diversity so that progress can be made in generalizing to new users and new sessions.
 
 
-Our **contributions** are:
+Our project's **contributions** are:
 
 * We release **_ a large open-access dataset_** of 68 participants. This dataset is the largest known to us by a factor of 2.5. 
 
 * We provide a **_ standardized protocol _** for evaluating classifiers and report benchmark results on our data under three paradigms of training: subject-specific, generic, and generic +
-fine-tuning. See paper and code for details.
+fine-tuning. See our [paper](https://openreview.net/pdf?id=QzNHE7QHhut) and [code](https://github.com/tufts-ml/fNIRS-mental-workload-classifiers) for details.
 
 * We provide **_ rich demographic information for each subject _** (age, gender, race, handedness) which enables auditing the "fairness" of fNIRS classifier performance across subpopulations. We view such audits as essential to make sure BCI works for everybody.
 
@@ -60,11 +60,24 @@ fine-tuning. See paper and code for details.
 
 # <a name="summary"> Dataset Summary </a>
 
-For each of the 68 eligible subjects in our dataset, our dataset contains:
+For a complete dataset summary, see our public [Datasheet PDF](https://raw.githubusercontent.com/tufts-ml/fNIRS-mental-workload-classifiers/main/Datasheet-Tufts-fNIRS2MW.pdf).
 
-* demographic information
-* the raw fNIRS recordings (a 21 minute long 8-channel time series at 5.2 Hz)
-* labels indicating the intended mental workload level (0-back, 1-back, 2-back, 3-back) for each interval of the experiment
+For each participant (68 recommended; 87 total), the dataset contains the following records obtained during one 30-60 minute experimental session. Each subject contributes just over 21 minutes of fNIRS data from the desired n-back experimental conditions, with remaining time related to rest or instruction periods.
+
+- fNIRS recordings
+  - a multivariate time-series representing brain activity throughout the session, recorded by a sensor probe placed on the forehead and secured via headband
+  - All measurements are recorded at a regular sampling rate of 5.2 Hz.
+  - At each timestep, we record 8 real-valued measurements, one for each combination of 2 measured concentration changes (oxygenated hemoglobin and deoxygenated hemoglobin), 2 optical data types (intensity and phase), and 2 spatial locations on the forehead. The units of each measurement are (change in) micro-moles of (oxy-/deoxy-)hemoglobin per liter of tissue.
+
+- Activity labels
+  - Annotations of the experimental task activity the subject performed throughout the session, including instruction, rest, and active experiment segments.
+  - We label each segment of the active experiment as one of four possible n-back working memory intensity levels (0-back, 1-back, 2-back, or 3-back). Increased intensity levels are intended to induce an increased level of cognitive workload.
+
+- Demographics
+  - The participant’s age, gender, race, handedness, and other attributes. This lets us measure and audit performance by subpopulation (e.g. how does the classifier perform on white subjects vs. black subjects). 
+
+- Activity performance
+  - We record the participant’s correctness at the working memory tasks (did they correctly identify when the stimuli was the same as one from n steps ago?). This lets us assess data quality and enforce eligibility criteria.
 
 
 ### Sliding window fNIRS data for classifiers
