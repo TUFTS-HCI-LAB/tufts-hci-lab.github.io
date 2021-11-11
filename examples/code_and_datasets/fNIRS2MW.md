@@ -42,21 +42,21 @@ Looking at the first decade of research on using fNIRS to estimate mental worklo
 
 * 1) **_The lack of available data_**. Previous work typically collects proprietary datasets from only 10-30 subjects, often from very homogenous populations. Much larger, more heterogeneous open-access datasets are needed to build everyday BCI systems that work for many users.
 
-* 2) **_ The lack of standardized evaluation protocols _**. Many previous efforts to build mental workload classifiers do not follow best practices in terms of dividing data into training and test sets in a way that allows reliable assessment of generalization potential (how well will this work for a new user?). For many works, it is not even clear how to reproduce their train/test splits. The release of a dataset should be accompanied by a standardized protocol, so that other teams can follow the very same experimental design, which makes results comparable and enables scientific progress.
+* 2) **_The lack of standardized evaluation protocols_**. Many previous efforts to build mental workload classifiers do not follow best practices in terms of dividing data into training and test sets in a way that allows reliable assessment of generalization potential (how well will this work for a new user?). For many works, it is not even clear how to reproduce their train/test splits. The release of a dataset should be accompanied by a standardized protocol, so that other teams can follow the very same experimental design, which makes results comparable and enables scientific progress.
 
-* 3) **_ The high cross-subject variability in fNIRS data _**. Collected sensor data varies due to differences in individual physiology, sensor placement, and other sources of noise. It is important that datasets represent this diversity so that progress can be made in generalizing to new users and new sessions.
+* 3) **_The high cross-subject variability in fNIRS data_**. Collected sensor data varies due to differences in individual physiology, sensor placement, and other sources of noise. It is important that datasets represent this diversity so that progress can be made in generalizing to new users and new sessions.
 
 
 Our project's **contributions** are:
 
-* We release **_ a large open-access dataset_** of 68 participants. This dataset is the largest known to us by a factor of 2.5. 
+* We release **_a large open-access dataset_** of 68 participants. This dataset is the largest known to us by a factor of 2.5. 
 
-* We provide a **_ standardized protocol _** for evaluating classifiers and report benchmark results on our data under three paradigms of training: subject-specific, generic, and generic +
+* We provide a **_standardized protocol_** for evaluating classifiers and report benchmark results on our data under three paradigms of training: subject-specific, generic, and generic +
 fine-tuning. See our [paper](https://openreview.net/pdf?id=QzNHE7QHhut) and [code](https://github.com/tufts-ml/fNIRS-mental-workload-classifiers) for details.
 
-* We provide **_ rich demographic information for each subject _** (age, gender, race, handedness) which enables auditing the "fairness" of fNIRS classifier performance across subpopulations. We view such audits as essential to make sure BCI works for everybody.
+* We provide **_rich demographic information for each subject_** (age, gender, race, handedness) which enables auditing the "fairness" of fNIRS classifier performance across subpopulations. We view such audits as essential to make sure BCI works for everybody.
 
-* Our dataset is targeted at **_ everyday BCI _**. Our headband-mounted sensor is non-intrusive and easy to put on / take off when performing everyday tasks. It does not require a fabric cap covering the whole skull (like many alternatives) and does not require any complicated registration to landmarks.
+* Our dataset is targeted at **_everyday BCI_**. Our headband-mounted sensor is non-intrusive and easy to put on / take off when performing everyday tasks. It does not require a fabric cap covering the whole skull (like many alternatives) and does not require any complicated registration to landmarks.
 
 # <a name="summary"> Dataset Summary </a>
 
