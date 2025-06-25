@@ -14,6 +14,47 @@ categories:
   - 
 --- 
 
+# <a name="publications"> Publications </a>
+
+The paper describing our latest dataset and algorithms can be found here:
+
+<blockquote>
+<p>
+  <a href="https://dl.acm.org/doi/pdf/10.1145/3654777.3676429">Empower Real-World BCIs with NIRS-X: An Adaptive Learning Framework that Harnesses Unlabeled Brain Signals</a>
+  <br />
+  Wang, Liang and Zhang, Jiayan and Liu, Jinyang and McKeon, Devon and Brizan, David Guy and Blaney, Giles and Jacob, Robert JK</a>
+  <br />
+  To appear in the Proceedings of the 37th Annual ACM Symposium on User Interface Software and Technology, 2024
+</p>
+</blockquote>
+
+
+Please cite our papers if you find these datasets (fNIRS2MW-Visual and fNIRS2MW-Audio) useful:
+
+<pre>
+@inproceedings{wang2021taming,
+  title={Taming fNIRS-based BCI input for better calibration and broader use},
+  author={Wang, Liang and Huang, Zhe and Zhou, Ziyu and McKeon, Devon and Blaney, Giles and Hughes, Michael C and Jacob, Robert JK},
+  booktitle={The 34th Annual ACM Symposium on User Interface Software and Technology},
+  pages={179--197},
+  year={2021}
+}
+@inproceedings{huangfNIRS2MW2021,
+    title = {The Tufts fNIRS Mental Workload Dataset & Benchmark for Brain-Computer Interfaces that Generalize},
+    booktitle = {Proceedings of the Neural Information Processing Systems (NeurIPS) Track on Datasets and Benchmarks},
+    author = {Huang, Zhe and Wang, Liang and Blaney, Giles and Slaughter, Christopher and McKeon, Devon and Zhou, Ziyu and Jacob, Robert J. K. and Hughes, Michael C.},
+    year = {2021},
+    url = {https://openreview.net/pdf?id=QzNHE7QHhut},
+}
+@inproceedings{wang2024empower,
+  title={Empower Real-World BCIs with NIRS-X: An Adaptive Learning Framework that Harnesses Unlabeled Brain Signals},
+  author={Wang, Liang and Zhang, Jiayan and Liu, Jinyang and McKeon, Devon and Brizan, David Guy and Blaney, Giles and Jacob, Robert JK},
+  booktitle={Proceedings of the 37th Annual ACM Symposium on User Interface Software and Technology},
+  pages={1--16},
+  year={2024}
+}
+</pre>
+
 Welcome to the Tufts fNIRS to Mental Workload (fNIRS2MW) <span style="color:red"> *audio* </span> n-back open-access dataset! 
 
 Using this dataset, we can train and evaluate machine learning classifiers that consume a short window (30 seconds) of multivariate fNIRS recordings and predict the mental workload intensity of the user during that interval. 

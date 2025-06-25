@@ -136,15 +136,29 @@ Lead authors ZH \& LW contributed equally, as did supervisory authors RJ \& MCH.
 We are pleased to report that the paper describing our dataset and benchmarks was recently accepted for publication at the new [Track on Datasets and Benchmarks happening at NeurIPS 2021](). NeurIPS is a top-tier conference for machine learning research.
 
 
-Please cite our paper if you find this dataset useful:
+Please cite our papers if you find these datasets (fNIRS2MW-Visual and fNIRS2MW-Audio) useful:
 
 <pre>
+@inproceedings{wang2021taming,
+  title={Taming fNIRS-based BCI input for better calibration and broader use},
+  author={Wang, Liang and Huang, Zhe and Zhou, Ziyu and McKeon, Devon and Blaney, Giles and Hughes, Michael C and Jacob, Robert JK},
+  booktitle={The 34th Annual ACM Symposium on User Interface Software and Technology},
+  pages={179--197},
+  year={2021}
+}
 @inproceedings{huangfNIRS2MW2021,
     title = {The Tufts fNIRS Mental Workload Dataset & Benchmark for Brain-Computer Interfaces that Generalize},
     booktitle = {Proceedings of the Neural Information Processing Systems (NeurIPS) Track on Datasets and Benchmarks},
     author = {Huang, Zhe and Wang, Liang and Blaney, Giles and Slaughter, Christopher and McKeon, Devon and Zhou, Ziyu and Jacob, Robert J. K. and Hughes, Michael C.},
     year = {2021},
     url = {https://openreview.net/pdf?id=QzNHE7QHhut},
+}
+@inproceedings{wang2024empower,
+  title={Empower Real-World BCIs with NIRS-X: An Adaptive Learning Framework that Harnesses Unlabeled Brain Signals},
+  author={Wang, Liang and Zhang, Jiayan and Liu, Jinyang and McKeon, Devon and Brizan, David Guy and Blaney, Giles and Jacob, Robert JK},
+  booktitle={Proceedings of the 37th Annual ACM Symposium on User Interface Software and Technology},
+  pages={1--16},
+  year={2024}
 }
 </pre>
 
