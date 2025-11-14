@@ -5,8 +5,6 @@ display:
 description: 
 image: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=Zs9zkWIAAAAJ&citpid=3
 date: 2021-05-07
-tags:
-  - Ph.D., Associate Professor
 categories:
   - Past Lab member
 --- 

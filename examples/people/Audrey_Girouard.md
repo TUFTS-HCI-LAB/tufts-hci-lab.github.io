@@ -5,8 +5,6 @@ display:
 description: 
 image: https://cil.csit.carleton.ca/b/wp-content/uploads/2017/05/AudreyGirouard_BW512.jpg
 date: 2021-05-07
-tags:
-  - Ph.D., Cross Appointed Associate Professor
 categories:
   - Past Lab member
 --- 

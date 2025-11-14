@@ -5,8 +5,6 @@ display:
 description: 
 image: https://www.wpi.edu/sites/default/files/faculty-image/esolovey.jpg?1621884812004
 date: 2021-05-07
-tags:
-  - Ph.D., Assistant Professor
 categories:
   - Past Lab member
 --- 

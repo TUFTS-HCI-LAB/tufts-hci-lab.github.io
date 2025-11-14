@@ -5,8 +5,6 @@ display:
 description: 
 image: https://www.colorado.edu/ics/sites/default/files/styles/small/public/people/hirshfield_leanne_ics_faculty.png?itok=_6vQram8
 date: 2021-05-07
-tags:
-  - Ph.D., Associate Research Professor
 categories:
   - Past Lab member
 --- 

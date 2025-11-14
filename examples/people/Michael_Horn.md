@@ -5,8 +5,6 @@ display:
 description: 
 image: https://tidal.northwestern.edu/media/images/people/MichaelHorn.jpg
 date: 2021-05-07
-tags:
-  - Ph.D., Associate Professor
 categories:
   - Past Lab member
 --- 

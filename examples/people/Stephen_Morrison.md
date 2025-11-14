@@ -5,8 +5,6 @@ display:
 description: 
 image: https://github.com/TUFTS-HCI-LAB/tufts-hci-lab.github.io/blob/lwang89-patch-1/stephen_morrison.jpeg?raw=true
 date: 2021-05-07
-tags:
-  - Ph.D., Intersystems
 categories:
   - Past Lab member
 --- 

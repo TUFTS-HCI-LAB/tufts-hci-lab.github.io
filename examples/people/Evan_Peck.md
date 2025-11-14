@@ -5,8 +5,6 @@ display:
 description: 
 image: https://www.eg.bucknell.edu/~emp017/images/me3.jpg
 date: 2021-05-07
-tags:
-  - Ph.D., Associate Professor
 categories:
   - Past Lab member
 --- 

@@ -5,8 +5,6 @@ display:
 description: 
 image: https://thostle.com/img/thostle.jpg
 date: 2021-05-10
-tags:
-  - Ph.D. student
 categories:
   - Lab member
 --- 

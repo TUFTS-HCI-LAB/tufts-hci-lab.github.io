@@ -5,8 +5,6 @@ display:
 description: 
 image: https://github.com/TUFTS-HCI-LAB/tufts-hci-lab.github.io/blob/lwang89-patch-1/tomoki_shibata.jpeg?raw=true
 date: 2021-05-12
-tags:
-  - Ph.D. candidate
 categories:
   - Lab member
 --- 

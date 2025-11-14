@@ -5,8 +5,6 @@ display:
 description: 
 image: /people/sam-hincks.jpg
 date: 2021-05-07
-tags:
-  - Ph.D., Spatial musician
 categories:
   - Past Lab member
 --- 

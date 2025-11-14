@@ -5,8 +5,6 @@ display:
 description: 
 image: https://www.danafergan.com/dan.png
 date: 2021-05-07
-tags:
-  - Ph.D., Google Inc.
 categories:
   - Past Lab member
 --- 

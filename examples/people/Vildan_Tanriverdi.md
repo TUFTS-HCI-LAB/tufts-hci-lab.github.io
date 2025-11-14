@@ -5,8 +5,6 @@ display:
 description: 
 image: https://github.com/TUFTS-HCI-LAB/tufts-hci-lab.github.io/blob/lwang89-patch-1/vildan_tanriverdi.jpeg?raw=true
 date: 2021-05-07
-tags:
-  - Ph.D., IBM
 categories:
   - Past Lab member
 --- 

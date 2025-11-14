@@ -5,8 +5,6 @@ display:
 description: 
 image: https://avatars.githubusercontent.com/u/21259611?v=4
 date: 2021-05-10
-tags:
-  - Ph.D. candidate
 categories:
   - Lab member
 --- 

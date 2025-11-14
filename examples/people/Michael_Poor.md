@@ -5,8 +5,6 @@ display:
 description: 
 image: https://www.baylor.edu/content/imglib/3/3/9/4/339499.jpg
 date: 2021-05-07
-tags:
-  - Ph.D., Associate Professor
 categories:
   - Past Lab member
 --- 

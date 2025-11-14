@@ -5,8 +5,6 @@ display:
 description: 
 image: https://www.usfca.edu/sites/default/files/styles/student_profile_980x550/public/images/headshots/yuksel-beste-02.jpg?itok=0Hk140KK
 date: 2021-04-10
-tags:
-  - Ph.D., Assistant Professor
 categories:
   - Past Lab member
 --- 

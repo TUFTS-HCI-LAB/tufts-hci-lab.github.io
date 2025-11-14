@@ -5,8 +5,6 @@ display:
 description: 
 image: https://witdirectoryphoto.z13.web.core.windows.net/deligiannidisl.jpg
 date: 2021-05-07
-tags:
-  - Ph.D., Professor
 categories:
   - Past Lab member
 --- 
