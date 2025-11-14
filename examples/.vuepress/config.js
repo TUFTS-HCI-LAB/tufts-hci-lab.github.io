@@ -3,12 +3,9 @@ module.exports = {
   description: "Tufts Human-Computer Interaction Laboratory",
   base: "/",
   dest: "./docs/",
-  // theme: require.resolve('../../theme_ououe/'),
-  // theme: path.resolve(__dirname, './theme'),
   themeConfig: {
     defaultTheme: "dark",
     showThemeButton: false,
-    // cover: "/cover.jpg",
     cover: [
       "/home_page/196.jpg",
       "/home_page/ballou.jpg",
@@ -103,29 +100,13 @@ module.exports = {
     logo: "/logo_hci.png",
     search: false,
     sidebar: "auto",
-    // backgroundImage: false,
-    // pageGroup: 5,
-    // postTime: {
-    //   createTime: 'Create Time',
-    //   lastUpdated: 'Last Updated',
-    //   options: {
-    //     dateStyle: 'full',
-    //     timeStyle: 'short',
-    //     hour12: false,
-    //     weekday: 'long'
-    //   }
-    // },
     nav: [
       { text: "Home", link: "/" },
-      { text: "HCI At Tufts", link: "/hci_at_tufts/" },
       { text: "People", link: "/people/" },
-      { text: "Projects", link: "/projects/" },
+      { text: "Research", link: "/projects/" },
       { text: "Publications", link: "/publications/" },
-      { text: "Code & Datasets", link: "/code_and_datasets/" },
-      { text: "Admissions", link: "/admissions/" },
-      { text: "HCI Resources", link: "/hci_resources/" },
+      { text: "Get Involved", link: "/contactUs/" },
     ],
-    // footer: [{ text: "Github", link: "https://github.com" }],
     footer: [
       {
         text:
@@ -134,10 +115,4 @@ module.exports = {
       },
     ],
   },
-  // postcss: {
-  //   plugins: [
-  //     require('css-prefers-color-scheme/postcss'),
-  //     require('autoprefixer')
-  //   ]
-  // }
 };
